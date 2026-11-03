@@ -1,0 +1,43 @@
+HOW DOES MACHINE LEARNING APPROACH A PROBLEM?
+
+- Two ways to solve dark data problems:
+    IF AI DOESN’T RELY ON PROGRAMMING INSTRUCTIONS TO WORK WITH UNSTRUCTURED DATA, HOW DOES AI DO IT?
+    Machine learning can analyze dark data far more quickly than a programmable computer can. To see why,
+    consider the problem of finding a route through big city traffic using a navigation system. It’s a
+    dark data problem because solving it requires working with not only a complicated street map, but
+    also with changing variables like weather, traffic jams, and accidents. Let’s look at how two
+    different systems might try to solve this problem.
+    
+1. Programmable computer:
+    -> Researchers might upload onto the computer a complete database of all possible routes through the
+        city. This is an enormous collection of structured data.
+    -> Then they would have to add much more data describing current weather and traffic conditions.
+        This would have to be revised every few minutes for the entire city!
+    -> Then they might use a programmable computer to search through the data until it finds a route
+        from start to finish. The entire project would require astronomical resources and time, if it
+        could be accomplished at all!
+
+2. AI with machine learning:
+    -> The machine learning AI would treat the problem like climbing a tree. The system would try a route,
+        as if starting at the base of the trunk. Upon reaching a branch, the system would then fork in
+        one direction and continue doing so until it reached either a dead end or the desired destination.
+    -> It would do this over and over again, then compare successful routes to identify the shortest one.
+        Although the work sounds repetitious, it requires fewer resources and can be completed more
+        quickly.
+
+- The machine learning process is entirely different.
+    The machine learning process has advantages:
+    -> It doesn’t need a database of all the possible routes from one place to another. It just needs to
+        know where places are on the map.
+    -> It can respond to traffic problems quickly because it doesn’t need to store alternative routes
+        for every possible traffic situation. It notes where slowdowns are and finds a way around them
+        through trial and error.
+    -> It can work very quickly. While trying single turns one at a time, it can work through millions
+        of tiny calculations.
+
+- But machine learning has two more advantages that programmable computers lack:
+    -> MACHINE LEARNING CAN PREDICT. You know this already. A machine can determine, “Based on traffic
+        right now, this route is likely to be faster than that one.” It knows this because it compared
+        routes as it built them.
+    -> MACHINE LEARNING LEARNS! It can notice that your car was delayed by a temporary detour and adjust
+        its recommendations to help other drivers.

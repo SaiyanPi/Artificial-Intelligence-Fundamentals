@@ -1,0 +1,61 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned
+
+1. You train Google Photos to identify people in photographs. As a result, Google Photos can recognize
+    their faces.
+
+    - What kind of learning is this?
+
+    - Unsupervised learning
+
+    - Supervised learning ✅
+
+    - Transitory learning
+
+    - Reinforcement learning
+
+
+2. Which method of learning does an AI system use when it uses the process of trial and error?
+
+    - Reinforcement learning ✅
+
+    - Classical conditioning
+
+    - Supervised learning
+
+    - Unsupervised learning
+
+
+3. Fill in the blank. All supervised learning algorithms need ___________ data.
+
+    - unlabeled
+
+    - unstructured
+
+    - raw
+
+    - labeled ✅
+
+
+4. YouTube and Netflix often recommend options to users. What kind of learning is used to generate these
+    recommendations?
+
+    - Commentary learning
+
+    - Unsupervised learning ✅
+
+    - Reinforcement learning
+
+    - Supervised learning
+
+
+5. Fill in the blank. ______________ learning occurs when the algorithm is given unlabeled data.
+
+    - Reinforcement
+
+    - Unsupervised ✅
+
+    - Classical
+
+    - Supervised

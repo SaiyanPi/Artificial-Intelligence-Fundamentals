@@ -1,0 +1,73 @@
+MACHINE LEARNING USES PROBABILISTIC CALCULATION
+
+- There are two other ways to contrast classical and machine learning systems. One is deterministic and
+    the other is probabilistic.
+    Let’s dig in and see what these two words mean.
+    
+    For a deterministic system, there must be an enormous, predetermined structure of routes—a gigantic
+    database of possibilities from which the machine can make its choice. If a certain route leads to
+    the destination, then the machine flags it as “YES”. If not, it flags it as “NO”. This is basically
+    binary thinking: on or off, yes or no. This is the essence of a computer program. The answer is
+    either true or false, not a confidence value.
+
+    Machine learning is probabilistic. It never says “YES” or “NO”. Machine learning is analog (like
+    waves gradually going up and down) rather than binary (like arrows pointing upward and downward).
+    Machine learning constructs every possible route to a destination and compares them in real time,
+    including all the variables such as changing traffic. So, a machine learning system doesn’t say,
+    “This is the fastest route.” It says something like, “I am 84% confident that this route will get
+    you there in the shortest time.” You might have seen this yourself if you’ve traveled in a car with
+    an up-to-date GPS navigation system that offers you two or three choices with estimated times.
+
+----------------------------------------------------------------------------------------------------------
+
+IF MACHINE LEARNING OFFERS ONLY PROBABILITIES, WHO MAKES THE FINAL DECISION?
+
+- This can literally be a life-and-death question. Suppose you have a serious disease and your doctor
+    offers you a choice. Do you want your doctor to prescribe your treatment, or do you want the treatment
+    that a machine learning system determines is most likely to succeed?
+    
+    Reflection: What do you think?
+    Think about the preceding question for a moment.
+
+    MACHINE LEARNING ENABLES A RICH PARTNERSHIP BETWEEN TECHNOLOGY AND HUMANS:
+    -> AI systems and humans excel at different things. For example, you, as a person, might excel at
+        imagining possibilities, while AI excels at pinpointing patterns.
+    -> As you learned, the GPS offers different routes to choose from. Machine learning leaves room for
+        humans to make the final decision. You, or an expert, can choose which route to take based on
+        possible outcomes and personal experience.
+    -> Consider how a machine learning system might work with the medical question you considered
+        previously. As a doctor considers how to treat a cancer patient, the AI ingests your entire
+        medical record plus every research paper about this cancer published in the last few years.
+        This takes a few seconds. But the AI doesn’t say, “Do this” or “Do that”. That would be a
+        deterministic solution that cuts the doctor and patient out of the decision.
+    -> Instead, the AI provides a probabilistic statement such as, “There’s a 92% chance that this
+        treatment will work, and an 87% chance that this other treatment will work. Here is what would
+        be involved in conducting each treatment option.” Now the doctor can consult with you and together
+        you make the choice. In other words, AI, the doctor, and you have formed a partnership in which
+        machines predict but humans judge!
+    
+    What do you think?
+    Take a moment to consider other differences between humans and AI systems.
+    AI capilities:
+        -> Pattern recognization
+        -> Endless memory
+        -> Machine learning
+        -> Structuring information
+    Human capabilities:
+        -> Dreaming
+        -> Abstrcation
+        -> Generalization
+        -> Compassion
+
+- Does common sense make sense?
+    It turns out that in fields, ranging from medicine and education to social studies and government,
+    the best decisions are made using a balance of human and machine strengths. But remember, there is
+    another elusive but vital capability that must also be considered: common sense. You might know
+    people with strong common sense and understand its value. You also might have seen or read output
+    from machines that makes no sense. Yet, there’s a contribution to be made from both sides.
+
+    Common sense draws on many complex generalizations mixed with compassion and abstractions. At this
+    time, only humans can use common sense well. The problem is that common sense is often tainted with
+    bias that can distort your judgment. AI systems can balance this. As long as AI systems are provided
+    and trained with unbiased data, they can make recommendations that are free of bias. A partnership
+    between humans and machines can lead to sensible decisions. 

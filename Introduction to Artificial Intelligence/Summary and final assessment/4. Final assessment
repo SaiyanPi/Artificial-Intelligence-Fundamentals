@@ -1,0 +1,170 @@
+FINAL ASSESSMENT:
+
+1. Which of the following describes how machine learning differs from classical systems in structuring
+    unstructured data?
+
+    -> Machine learning constructs a predetermined structure of routes based on a database.
+
+    -> Machine learning relies on human judgment to structure unstructured data.
+
+    -> Machine learning relies on deterministic algorithms to process unstructured data.
+
+    -> Machine learning offers probabilistic statements instead of binary decisions. ✅
+
+
+2. Which of the following is a likely consequence of AI becoming more pervasive across industries?    
+
+    -> Increased compartmentalization of AI implementation
+
+    -> Humans and machine interactions will become increasingly standardized
+
+    -> Enhanced productivity and the creation of new opportunities ✅
+
+    -> Reliance on current machine interface technologies will be strengthened
+
+
+3. You’re working for an employer who wants to learn from social media what customers say about her
+    products and services. Which of the following is the best reason to support moving to an AI system?
+
+    -> Social media data lacks complexity.
+
+    -> Social media data is completely unstructured.
+
+    -> Social media data contains a mix of structured and unstructured data. ✅
+
+    -> Social media data is completely structured.
+
+
+4. Which of the following acts on behalf of people in the physical world in a way that complements
+    human abilities?
+
+    -> Expert systems
+
+    -> Augmented intelligence ✅
+
+    -> Cognitive computing systems
+
+    -> Machine learning algorithms
+
+
+5. Which level of AI refers to machines that can perform any intellectual task that a human can?
+
+    -> Broad AI
+
+    -> General AI ✅
+
+    -> Narrow AI
+
+
+6. Which of the following is a key attribute of an artificial intelligence system?
+
+    -> AI systems have experience.
+
+    -> AI systems make predictions. ✅
+
+    -> AI systems are self-aware.
+
+    -> AI systems can judge.
+
+
+7. Which of the following explains why an AI trained with machine learning can rapidly map the best
+    route between two points on a map?
+
+    -> It relies on a complete database of all possible routes through the city.
+
+    -> It performs millions of tiny calculations quickly, trying different routes through trial and
+        error. ✅
+
+    -> It uses predefined programming instructions to navigate through traffic.
+
+    -> It predicts traffic problems based on stored alternative routes for every possible situation.
+
+
+8. Which of the following statements most accurately describes semi-structured data?
+
+    -> Data that combines features of both structured and unstructured data, using metadata for
+        organization ✅
+
+    -> Quantitative data processed and analyzed by conventional data tools
+
+    -> Information that can be organized in rows and columns, like in a spreadsheet
+
+    -> Data that lacks any built-in organization or structure, such as images and texts
+
+
+9. In which of the following eras of computing did an IBM system beat a chess champion, a robot drive
+    itself down a 131-mile desert trail, and IBM Watson beat two Jeopardy! grand champions?
+
+    -> Era of AI ✅
+
+    -> Era of Programming 
+
+    -> Era of Tabulation
+
+
+10. You are working on an AI system to help doctors treat patients. While describing your system to a
+    group of doctors, you are asked the following question, “How does machine learning enable
+    decision-making in complex scenarios, such as medical treatment choices?” Which of the following is
+    the best response?
+
+    -> By providing probabilistic statements with confidence levels for different treatment options ✅
+
+    -> By relying solely on AI systems to make treatment decisions without human input
+
+    -> By ignoring potential outcomes and personal experience in decision making
+
+    -> By offering deterministic solutions based on fixed criteria
+
+
+11. Which of the following is an example of structured data?
+
+    -> Social media posts
+
+    -> Flight schedules ✅
+
+    -> Videos
+
+    -> Movie reviews
+
+
+12. Which of the following is the level of AI that is more versatile, can handle a wider range of
+    related tasks, and is focused on integrating AI within specific business processes?
+
+    -> General AI
+
+    -> Broad AI ✅
+
+    -> Narrow AI
+
+
+13. Which of the following types of data can be analyzed more quickly by machine learning than by a
+    programmable computer?
+
+    -> Unstructured ✅
+
+    -> Structured
+
+    -> Systematic
+
+    -> Organized
+
+
+14. Which of the following types of data is categorized as qualitative data, and cannot be processed and
+    analyzed by conventional data tools and methods?
+
+    -> Unstructured data ✅
+
+    -> Structured data
+
+    -> Data in a database
+
+    -> Semi-structured data
+
+
+15. Which of the following methods of learning describes how an AI system learns using trial and error?
+
+    -> Unsupervised learning
+
+    -> Reinforcement learning ✅
+
+    -> Supervised learning
