@@ -1,0 +1,25 @@
+Generative adversarial NETWORKS:
+
+- A visual recognition system can use a generative adversarial network (GAN) to create new drawings and
+    photos.
+    Recall that an AI system can analyze a photo using a neural network to identify a photo. But what
+    about AI systems themselves that create imaginary photos?
+
+    You might have heard of computer-generated “deep fakes”: computer-generated images that look like
+    they were taken from real life. You might have also seen drawings or handwriting created by AI
+    “artists”. How does a system do this? One way is by pitting two convolutional neural networks (CNNs)
+    against each other in a “contest” called a generative adversarial network, or GAN. In effect, the
+    CNNs battle each other until one of them becomes pretty good at creating art.
+
+    This GAN has two convolutional neural networks (CNNs). One CNN, the generator, is working towards
+    creating output that is good enough to fool the other CNN, called the discriminator.
+
+    Martin Keen returns to explain the surprising way a generative adversarial network does this.
+    Watch this video in which Martin explains this process.
+    https://www.youtube.com/watch?v=TpMIssRdhco&time_continue=2&source_ve_path=NzY3NTg&embeds_widget_referrer=https%3A%2F%2Fcpcontents.adobe.com%2F&embeds_referring_euri=https%3A%2F%2Fcdn.embedly.com%2F&embeds_referring_origin=https%3A%2F%2Fcdn.embedly.com
+
+- To summarize
+    A GAN battle ends with an image that’s ready to be shown to a human. Sometimes, the human might
+    laugh and think the resulting image is ridiculous. But other times, the human, like the CNN acting
+    as judge and teacher, won’t be able to tell the difference. At that point, the deep fake is a
+    success!

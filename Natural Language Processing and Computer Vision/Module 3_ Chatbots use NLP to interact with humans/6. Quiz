@@ -1,0 +1,61 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned
+
+1. Fill in the blank. A dialog is represented by a ____________ that illustrates how a chatbot will
+    respond after a human asks a question.
+
+    - three-dimensional table
+
+    - flowchart ✅
+
+    - movie script
+
+    - detailed bulleted list
+
+
+2. The majority of callers to a local hospital want to do one of the following three tasks: make an
+    appointment, cancel an appointment, and get the hospital’s address.
+    Would this be an appropriate use for a chatbot and why?
+
+    - Yes, because chatbots are designed for a small set of interaction types. ✅
+
+    - No, because chatbots are intended for a wider range of responses.
+
+    - Yes, because chatbots were specifically invented to handle hospital inquiries.
+
+    - No, because chatbots are designed for very large sets of interaction types.
+
+
+3. Which of the following statements describes how a chatbot processes a question?
+
+    - The chatbot breaks inputs apart to identify intents and entities. ✅
+
+    - The chatbot logs each question into a frontend database.
+
+    - The chatbot combines entities to ﬁnd how relationships divide at nodes.
+
+    - The chatbot creates frontend triggers.
+
+
+4. For a chatbot, what is an entity considered within the context of a question?
+
+    - A process
+
+    - A node
+
+    - An adjective
+
+    - A noun ✅
+
+
+5. Fill in the blank. A chatbot runs ________________ to understand the human’s intentions of their
+    typed input.
+
+    - language processing pods (LPP)
+
+    - natural language processing (NLP) ✅
+
+    - transistors
+
+    - translators

@@ -1,0 +1,67 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned
+
+1. Which of the following statements is correct about natural language processing (NLP)?
+
+    - In natural language processing, an AI system can speak human language perfectly once it builds a
+        corpus.
+
+    - IBM Project Debater was close, however not a successful project in the field of natural language
+        processing.
+
+    - Human language is complex, so machines require natural language processing systems to understand
+        human language. ✅
+
+    - IBM Project Debater was a major step forward in the field of natural language processing. ✅
+
+
+2. Which of the following functions can a cognitive AI system perform? Select all that apply.
+
+    - Intend
+
+    - Understand ✅
+
+    - Learn ✅
+
+    - Interact ✅
+
+    - Reason ✅
+
+
+3. What term do AI researchers use to describe the collection of text and data they use to train a
+    debater AI system?
+
+    - Collation
+
+    - Library
+
+    - Compilation
+
+    - Corpus ✅
+
+
+4. What is the final step an AI debater system must take?
+
+    - Ingest a collection of learned material to then structure the content to evaluate concepts.
+
+    - Build the final position by creating a final speech that details the position on the debate topic
+        and gives a compelling argument.
+
+    - Respond to the opponent by listening to the opponent's arguments to then deliver a convincing
+        rebuttal that refutes the opponent and further proves the case. ✅
+
+    - Organize the proof by deciding what evidence is the strongest, arrange it by themes, and adjust
+        the arrangement for new evidence to score points against the opponent.
+
+
+5. Fill in the blank. A system that helps machines understand cultural knowledge, grammatical
+    structures, and various language nuances is known as _____________________.
+
+    - translators
+
+    - natural language processing ✅
+
+    - relational databases
+
+    - computer vision

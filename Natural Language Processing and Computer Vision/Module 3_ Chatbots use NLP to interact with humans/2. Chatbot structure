@@ -1,0 +1,29 @@
+CHATBOT STRUCTURE:
+
+- If you’ve clicked a Chat button online and encountered a non-human chatbot, you might have noticed two
+    things:
+    -> When you ask a clear question that relates to the website’s purpose, like asking a shopping
+        chatbot “How can I get a refund?” it usually gives you a response related to your question.
+    -> When you ask a question that’s unclear or unrelated to the website’s purpose, like asking the
+        shopping chatbot “Got any tickets for sister?” the response will be more along the lines of
+        “I’m sorry, I didn’t understand your question.”
+
+    This happens because the chatbot is programmed to answer only limited questions about a particular
+    subject.
+
+- Even with this limitation, chatbots are useful in fields ranging from retail sales to immediate care
+    medicine. You can engage with a chatbot online at any time. A chatbot is always ready for your
+    question (even if it cannot answer you). Some institutions use chatbots often because they don’t
+    just broadcast ads like TV commercials. When people engage with them, chatbots listen, and they
+    answer repetitive questions that a business would otherwise need to pay humans to handle.
+
+- Chatbots work with small data. This means their scale is much more limited. A movie chain’s chatbot
+    might need to answer questions only about movie titles, locations, and times, while a more general
+    AI that searches social media might need to answer broad questions about what millions of people
+    think. AI researchers say that chatbots “snack on small data”.
+
+- A chatbot has a “frontend” and a “backend”
+    -> The frontend of a chatbot is the messaging channel. The frontend interacts with the person who’s
+        asking questions, both listening (or reading) and speaking (or presenting text).
+    -> The backend of a chatbot is where the hard work takes place. The backend operates application
+        logic and has enough memory to remember earlier parts of a conversation as dialog continues.

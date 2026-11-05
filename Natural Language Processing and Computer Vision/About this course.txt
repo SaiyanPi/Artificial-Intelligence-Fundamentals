@@ -1,0 +1,26 @@
+ABOUT THIS COURSE:
+
+- Every day, computers help you by understanding things they hear and see. Your phone responds to your 
+    verbal questions and commands. Traffic management systems observe streets and highways to suggest 
+    deal routes for you to travel. Computers respond to your needs and help you make good decisions!
+    Think of artificial intelligence (AI) as prediction machines that augment human intelligence and
+    provide insights.
+
+- Welcome to the Natural Language Processing and Computer Vision course! In this course, you'll become
+    familiar with fascinating artificial intelligence (AI) concepts, such as natural language processing
+    (NLP) and computer vision. You'll learn how chatbots respond to your questions, and other ways that
+    computers augment human senses.
+
+- Learning objectives:
+    After completing this course, you should be able to
+    -> Define natural language processing
+    -> Explain how AI uses natural language processing to derive meaning from text
+    -> Explain the classification problem and its solutions
+    -> Describe how a chatbot understands, reasons, learns, and interacts with users
+    -> Distinguish between intents, entities, and dialogs
+    -> Identify appropriate uses for chatbots
+    -> Identify real-world uses for natural language processing
+    -> Describe how AI classifies images to derive meaning from them
+    -> Describe how a convolutional neural network (CNN) analyzes an image
+    -> Describe how a generative adversarial network (GAN) creates a credible image
+    -> Identify real-world uses for computer vision

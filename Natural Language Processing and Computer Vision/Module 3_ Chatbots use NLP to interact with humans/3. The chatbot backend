@@ -1,0 +1,23 @@
+THE CHATBOT BACKEND:
+
+- A chatbot’s backend does the hard work of understanding and responding
+    Suppose part of a chatbot’s job is to help you when you've lost or forgotten your password. You
+    might enter, “How do I reset my password,” which would be easy for the chatbot to handle. To
+    describe that action, a chatbot programmer might think in terms, such as:
+
+        IF question = “How do I reset my password”
+        THEN reply = “Here’s how to create a new password”
+    
+- But humans are not always easy to understand. They might ask or type:
+    - “How come I can’t log into my account?!”
+    - “I forgot my @#$ password!”
+    - “It says my password is wrong.”
+    - “fergot paswrd”
+    
+    This tells you that one chatbot response (“This is how to create a new password”) can be triggered
+    by a large number of user queries (including all those listed, and more).
+
+- This is a great job for algorithms called classifiers. Classifiers can map many different ways of
+    asking a question to a very small set of answers. How small? Some retail chatbots respond to
+    hundreds of different questions with only five or six possible answers. Questions the chatbots
+    can’t answer are sent to human customer service representatives.

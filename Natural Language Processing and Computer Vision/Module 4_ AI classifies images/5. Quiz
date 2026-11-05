@@ -1,0 +1,62 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned
+
+1. A generator creates an image of a flower and the discriminator determines if the image is real or
+    fake. This process is repeated until the generator is able to create a image of a flower good enough
+    to fool the discriminator.
+    This is an illustration of which of the following machine learning models?
+
+    - Natural language processing (NLP)
+
+    - Convolutional neural network (CNN)
+
+    - Generative adversarial network (GAN) ✅
+
+    - Heads up guidance system (HGS)
+
+
+2. If you were a consultant, which of the following applications would you recommend for using computer
+    vision?
+
+    - Writing advertising text for a movie studio
+
+    - Inspecting robots at work on an assembly line ✅
+
+    - Designing cable structures for a suspension bridge
+
+    - Creating realistic portraits of historical figures
+
+
+3. Which of the following would be a good use of computer vision in a self-driving car?
+
+    - Detecting a stop sign ✅
+
+    - Detecting tire pressure
+
+    - Detecting trunk capacity
+
+    - Detecting the speed
+
+
+4. Which process makes facial recognition possible?
+
+    - Convolutional neural network (CNN) ✅
+
+    - Generative adversarial network (GAN)
+
+    - Natural language processing (NLP)
+
+    - Heads up guidance system (HGS)
+
+
+5. If a doctor asks you to suggest an AI capability that can help analyze X-rays, which computer vision
+    technology would you suggest?
+
+    - Natural language processing (NLP)
+
+    - Generative adversarial network (GAN)
+
+    - Heads up guidance system (HGS)
+
+    - Convolutional neural network (CNN) ✅

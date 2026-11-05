@@ -1,0 +1,16 @@
+MODULE 4: AI CLASSIFIES IMAGES
+--------------------------------------------------------------------------------------------------------
+
+INTRODUCTION: 
+
+- In this module, you’ll learn how AI can not only analyze images to identify their contents, but create
+    believable images by itself.
+
+
+LEARNING OBJECTIVES:
+
+- After completing this module, you should be able to:
+    -> Describe how AI classifies images to derive meaning from them
+    -> Describe how a convolutional neural network (CNN) analyzes an image
+    -> Describe how a generative adversarial network (GAN) creates a credible image
+    -> Identify real-world uses for computer vision

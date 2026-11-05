@@ -1,0 +1,63 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned
+
+1. What type of problem does the following sentence create for an AI system?
+    Is your refrigerator running?
+
+    - Sentiment problem
+
+    - Token movement problem
+
+    - Classification problem ✅
+
+    - Grammar problem
+
+
+2. You’re consulting for a store that wants to know how customers feel about a new product line. You
+    propose an AI system that can study how people feel about these products based on their comments
+    in social media.
+    Which tokens are most important for the AI system’s NLP to analyze?
+
+    - Emotions and sentiment ✅
+
+    - Loyalty and sentiment
+
+    - Entities and relationships
+
+    - Concepts and classification
+
+
+3. Your friend says, “I really love anchovies and flowers.” How many relationships between entities can
+    you find in this statement?
+
+    - Two ✅ ( I and Anchovies, I and Flowers)
+
+    - One
+
+    - Three
+
+    - Four
+
+
+4. What is sentiment analysis?
+
+    - A method to assess data into distinct human emotion types
+
+    - A method to determine the emotion when AI reads data, such as a customer service chat
+
+    - A method to identify data as angry, cheerful, or scared
+
+    - A method to measure the strength of an emotion by assessing data as positive, negative, or
+        neutral ✅
+
+
+5. How does an AI system that is working with human language handle the classification problem?
+
+    - It learns from many instances. ✅
+
+    - It consults the internet for interpretation.
+
+    - It segments the associated tokens.
+
+    - It creates a reference database.

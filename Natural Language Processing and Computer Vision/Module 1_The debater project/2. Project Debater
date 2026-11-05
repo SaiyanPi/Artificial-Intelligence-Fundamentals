@@ -1,0 +1,16 @@
+PROJECT DEBATER:
+
+- Can an AI win an argument?
+    If you ask an artificial intelligence system a question on a topic for which it's been trained, it
+    can look up an answer. The quiz show, Jeopardy!, proved that years ago. But can an AI system carry
+    on a continuing conversation and respond to what is said with each exchange? Let's make this
+    question even more difficult: Can an AI win a debate with a human expert about a complicated topic?
+    To answer this question, consider a famous experiment, then learn how AI works with spoken and
+    written language.
+    
+    IBM began developing Project Debater in 2012, hoping to build a machine that could do more than win
+    debates with humans. In other words, IBM Project Debater would need to be able to do more than just
+    answer questions in a human language; it would need to have the ability to listen to a series of
+    competitive arguments posed by humans and respond to them intelligently. IBM's ultimate goal was
+    to build a system that could help people make evidence-based, bias-free decisions on difficult
+    topics where the answers aren't obvious.

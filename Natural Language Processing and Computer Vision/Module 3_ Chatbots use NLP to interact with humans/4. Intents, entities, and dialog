@@ -1,0 +1,71 @@
+INTENTS, ENTITIES, AND DIALOG:
+
+- A chatbot backend usually includes three parts: intents, entities, and dialog
+    Chatbots understand a question by breaking it into parts and relating those parts to things in its
+    memory. A chatbot’s goal is to identify what are called entities and intents, then use what it’s
+    found to trigger a dialog. What do these terms mean?
+
+- Intent
+    An intent is a purpose: the reason why a user is contacting the chatbot. Think of it as something
+    like a verb: a kind of action. A user might intend to file a complaint, to ask for directions, to
+    speak to a salesperson.
+
+    An institution might have many customer or member intents that it would like a chatbot to handle.
+    Suppose you’ve been hired to help create a chatbot for a restaurant chain. One possible intent would
+    be to find out when the restaurants are open. You might first interview a person who previously
+    handled many forms of this question on the phone. Then, your task would be to list all the different
+    ways a caller might ask about when the restaurants are open. The following table provides many
+    examples of possible user inputs that map to this kind of intent.
+        
+        -------------------------------------------------
+            Intent	        |   Possible user inputs
+        -------------------------------------------------
+            Open	            When do you open?
+                                What are your hours?
+                                You open now?
+                                How late are you open?
+                                Can I walk in at 7 pm?
+    
+    Once you have a list of the intents you want your chatbot to fulfill, you’re ready to continue.
+
+
+- Entity
+    An entity is a noun: a person, place, or thing. This concept was covered earlier in this course. 
+
+    If a user asks, “What are the hours for the Austin location?”, then providing business hours is the
+    intent and Austin is the entity. A chatbot needs a full list of entities in order to be helpful.
+    The following table lists examples of entities that map to the intent and possible user inputs of
+    the previous restaurant chain example.
+
+        -------------------------------------------------------------------------------------
+            Intent	|   Possible user inputs 	         |  Entities
+        -------------------------------------------------------------------------------------
+            Open        When do you open?	                Austin
+                        What are your hours?	            Schedule
+                        You open now?                       Time
+                        How late are you open??             Time
+                        And so forth; there are many        And so forth; there are many 
+                        inputs mapping to this intent.      entities implied by this intent.
+    
+    Now that you've learned about entities and intents, let's talk about dialogs.
+
+
+- Dialog
+    A dialog is a flowchart—an IF / THEN tree structure that illustrates how a machine will respond to
+    user intents. A dialog is what the machine replies after a human asks a question. Even if a human
+    uses run-on sentences, poor grammar, chat messaging expressions, and so on, artificial intelligence
+    allows the NLP to understand well enough to provide a response.
+
+    The dialog represents each possible word or phrase a user might enter, the matched response for the
+    chatbot, and the many possible subsequent replies a user might make next. That’s too much for an
+    ordinary flowchart to show (you might need three or four dimensions!), so chatbot software condenses
+    each moment of the conversation into a node. A node contains a statement by the chatbot and a long,
+    expandable list of possible replies.
+
+- Planning this flowchart would be an adventure! You’d need to assign a reply to every possible user
+    input after the chatbot’s greeting. For the restaurant hours example, all possible questions about
+    a restaurant’s hours would lead to a single reply. This would continue for the next question
+    (perhaps for the restaurant’s address), and so on. A large number of possible questions would be
+    mapped onto a small number of possible answers until the conversation is ended.
+    (Spoiler: It helps that today’s virtual assistants already have been trained on Wikipedia, so they
+    know, for example, the difference between a wise man and a wise guy.)

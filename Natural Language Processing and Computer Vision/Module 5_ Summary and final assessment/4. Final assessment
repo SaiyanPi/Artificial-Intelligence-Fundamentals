@@ -1,0 +1,188 @@
+FINAL ASSESSMENT:
+
+1. Which of the following is the messaging channel of a chatbot that interacts with the user who is
+    asking the question?
+
+    - API gateway
+
+    - Backend
+
+    - Frontend ✅
+
+    - Natural language processing engine
+
+
+2. Natural language processing is the field of computer science concerned with which of the following?    
+
+    - Understanding and manipulating spoken and written language ✅
+
+    - Composing music based on other creative works
+
+    - Translating between different programming languages
+
+    - Building robots that can move and interact with the physical world
+
+
+3. Imagine you are the CEO of a large retail company. You are considering implementing chatbots on your
+    website to interact with customers. 
+    Which of the following situations would be the most appropriate use of a chatbot?
+
+    - Handling situations with customers that require empathy and judgment
+
+    - Handling situations where customers are unsure of what kind of support they need
+
+    - Negotiating personalized discounts and deals with customers
+
+    - Answering frequently asked questions (FAQs) about store policy, product availability, and return
+        procedures ✅
+
+
+4. Which of the following grammatical terms best describes an entity in relation to chatbots?
+
+    - Adjective
+
+    - Verb
+
+    - Noun ✅
+
+    - Preposition
+
+
+5. Which of the following is a convolutional neural network (CNN) used for when an AI system processes
+    images to derive meaning from them?
+
+    - Generating random patterns in images
+
+    - Analyzing entire images at once
+
+    - Identifying patterns and features in images ✅
+
+    - Supervising the training process and updating the model’s parameters
+
+
+6. Which of the following is the best use of computer vision in a self-driving car?
+
+    - Detecting tire pressure
+
+    - Detecting a stop sign ✅
+
+    - Determining the car’s route
+
+    - Detecting speed
+
+
+7. Which of the following explains how detecting emotions can help an AI system in user interactions?    
+
+    - It helps the AI identify the user’s age and demographic information.
+
+    - It enables the AI to detect when a customer is frustrated or angry and escalate the issue to a
+        human agent. ✅
+
+    - It allows the AI to predict the user’s future actions and purchasing decisions.
+
+    - It allows the AI to learn the user’s preferred language and communication style.
+
+
+8. Which of the following processes is used by AI to analyze only small parts of an image at a time,
+    making it possible for visual recognition systems to identify parts of an image?
+
+    - Convolutional neural network (CNN) ✅
+
+    - Vocal recognition network (VRN)
+
+    - Natural language processing (NLP)
+
+    - Generative adversarial network (GAN)
+
+
+9. Imagine you want to create a new AI application. Which of the following would be the most suitable
+    use of NLP for the application?
+
+    - An AI-powered stock market prediction tool that analyzes stock prices
+
+    - An AI-powered customer service chatbot that can handle complex inquiries and resolve customer
+        issues ✅
+
+    - An AI-powered music composer that generates original music pieces based on other compositions
+
+    - An AI-powered financial fraud detection systems that analyzes transaction patterns
+
+
+10. Complete the sentence. _______________ can be more difficult for an AI system than identifying
+    tokens because so much of it depends on the context of the sentence. For example, compare “I went
+    to the docks to ship my box” to “I went to the station to ship my box”.    
+
+    - Classification ✅
+
+    - Sentence segmentation
+
+    - Entity identification
+
+    - Sentiment analysis
+
+
+11. Which of the following describes how chatbots differ from more general AI systems in their
+    capabilities?
+
+    - Chatbots rely on real-time data input while general AI systems use pretrained data sets.
+
+    - Chatbots can access and process more information than general AI systems.
+
+    - Chatbots are focused on answering specific questions in a limited domain. ✅
+
+    - Chatbots are more intelligent and adaptable than general AI systems.
+
+
+12. Which of the following terms is used to describe the reason why a user sends a message in a
+    chatbot?
+
+    - Entity
+
+    - Sentiment
+
+    - Intent ✅
+
+    - Dialog
+
+
+13. You are reading reviews of the latest blockbuster movie. One review says, “This movie is fantastic!”
+    Another review says, “Worst movie ever!” 
+    Which of the following best describes the process that an AI system would use to classify the
+    reviews?
+
+    - Emotion detection
+
+    - Topic modeling
+
+    - Keyword analysis
+
+    - Sentiment analysis ✅
+
+
+14. You are working on a project that has two convolutional neural networks (CNNs) working against
+    each other. One CNN (the generator) creates new data, while the other CNN (the discriminator)
+    tries to identify if the data is real or generated. This competitive process helps the generator
+    create increasingly realistic outputs. 
+    Which of the following best describes what you are working on?
+
+    - Convolutional neural network (CNN)
+
+    - Generative adversarial network (GAN) ✅
+
+    - Variational Autoencoder (VAE) Transformer
+
+    - Natural language processing (NLP) system
+
+
+15. When handling unstructured information, computers begin with one sentence at a time using sentence
+    segmentation. Computers then break the information into smaller chunks that can be individually 
+    classified and sorted into a structure for natural language processing to work with them.
+    Which of the following is the term used to refer to those smaller chunks?
+
+    - Entities
+
+    - Tokens ✅
+
+    - Intents
+
+    - Sentiments

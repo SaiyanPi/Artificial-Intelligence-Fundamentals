@@ -1,0 +1,22 @@
+EXAMPLE NLP ANALYSIS:
+
+- Intents, entities, and dialogs make quick work for NLP
+    In a conventional computer, the program code is stupendously large but wouldn’t handle intents,
+    entities, and dialogs very well. A conventional computer would need a separate IF / THEN line for
+    many thousands of ways a question might be asked. Unless a human were to match one of those lines
+    perfectly, the computer would fail. 
+    But an AI system’s combination of NLP with intents, entities, and dialog can make quick work of this.
+    NLP analyzes sentence components, then uses processes like passage and evidence scoring to classify
+    the sentence components against possible chatbot responses. The result is that when a human user
+    asks a question, the AI system provides the answer with the highest confidence.
+
+- Consider Staples, the office supply company that features the Easy button. Suppose a customer asks for
+    a chatbot on Staples’ website. The chatbot’s frontend receives the customer’s inquiry, then forwards
+    it to the chatbot’s backend. There, IBM Watson Assistant runs the NLP to understand the human’s
+    intentions regarding ordering a product or tracking a shipment.
+    If the customer says, “I want to reorder black pens,” the chatbot figures out what that means. Then,
+    it uses cognitive services to pull up the customer’s purchase history. Within seconds, the system is
+    helping the customer buy more pens.
+    The Staples chatbot only knows five things, but it knows them well. It supports online sales 24
+    hours a day, giving callers round-the-clock service while leaving human staff free to do other work.
+    This is valuable for both the customers and the business.

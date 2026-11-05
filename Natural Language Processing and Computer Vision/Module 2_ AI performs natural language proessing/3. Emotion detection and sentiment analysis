@@ -1,0 +1,20 @@
+EMOTION DETECTION AND SENTIMENT ANALYSIS:
+
+- Emotion detection and sentiment analysis are not the same thing
+    Although emotions and sentiment deal with feelings rather than facts or actions, distinguishing
+    between them can help an AI better understand a sentence.
+
+- Emotion detection:
+    -> Emotion detection identifies distinct human emotion types.
+    -> For example, you can determine if the emotion being expressed is anger, happiness, or fear after
+        reading a user's rating and comments in an online customer satisfaction survey.
+    -> AI can be trained to classify emotions. Identifying the right emotional token can make a big
+        difference when an AI system is reading a social media post or a customer service chat, in which
+        different emotions significantly change the meaning of a sentence.
+
+- Sentiment analysis:
+    -> Sentiment analysis isn’t a specific emotion —at least, not as computer scientists use the term.
+        Instead, it’s a measure of the strength of an emotion. 
+    -> You can think of sentiment as a sliding scale between positive and negative, with neutral in the
+        middle. 
+    -> Sentiment analysis is a means of assessing if data is positive, negative, or neutral.

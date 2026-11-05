@@ -1,0 +1,34 @@
+THE CLASSIFICATION PROBLEM:
+
+- Human language makes classification challenging
+    Here’s an old-fashioned riddle: Why does your nose run and your feet smell?
+
+- Human language is full of terms that are vague or have double meanings. This is called a classification
+    problem. In the riddle, run and smell each have two meanings.
+    -> "A runny nose" means you have a cold and you need a tissue to wipe your nose. 
+    -> "A smelly foot" means that your  foot has an unpleasant odor.  
+
+    It might only take you a moment to understand the joke, but an AI system might have difficulty
+    classifying its elements. Consider these examples:
+    -> You can ship a box by train.
+    -> When a building burns down, it burns up.
+    -> You can fill in a form by filling it out.
+    -> A wise guy is not the same as a wise person.
+
+- Classification can be more difficult for an AI system than identifying tokens because so much of
+    classification depends on the context in which a sentence is contained. Compare 'I went to the docks
+    to ship my box' to 'I went to the station to ship my box'. Both sentences indicate where a box’s
+    travel begins, but neither specifies how it will travel. An AI system must associate the word ship 
+    with either the word station or docks, and then relate that association with the right concept:
+    either train or boat.
+
+    How does an AI system deal with this problem? After ingesting several thousand instances in which
+    shipping from a dock results in boat travel, while shipping from a station leads to shipping by
+    rail, the AI system identifies the frequency in which places and kinds of travel are linked.
+    Gradually, the system gets better at classification and makes fewer mistakes. However, as with
+    humans, an AI system’s classification will never be 100% perfect. (That’s why well-designed AI
+    systems give not only a response, but also a confidence value.)
+
+- As you’ve learned, getting from tokens and classification to answering questions (or winning a debate)
+    is a complex endeavor. But it isn’t enough to take a machine all the way to understanding. You will
+    learn about ways to do this later in this course.

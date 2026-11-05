@@ -1,0 +1,88 @@
+NLP SENTENCE SEGMENTATION AND TOKENS:
+
+- Natural language processing
+    Computers are best at working with structured data, in which everything is neatly grouped and labeled.
+    Unfortunately for machines, human language is anything but structured. You’ve been using language
+    for most of your life. Your brain accomplishes this through some of the most complicated neural
+    circuitry on Earth. But it is very difficult to create machines that can work with human language.
+
+- In NLP, machines segment sentences and extract meaning from “tokens” of human language
+    Human language is unstructured. Although it is loosely held together by rules of grammar, our
+    language expresses information in many confusing ways. Unlike structured information, which can be
+    arranged in tables or matrices with neatly labeled rows and columns, unstructured information is
+    messy and difficult to understand. To see why, consider this famous joke by Groucho Marx.
+
+        "One morning I shot an elephant in my pajamas. How he got in my pajamas, I don’t know."
+        - Adapted from Groucho Marx, 20th century comedian and movie star
+
+- To deal with the “messiness” of unstructured information, computers begin with one sentence at a time.
+    This is called sentence segmentation. Computers then break the information into small chunks of
+    information, called tokens, that can be individually classified. Once the tokens in text have been
+    sorted into a structure based on what they mean, NLP can work with them.
+    The following activities show you how Groucho Marx’s joke can be tokenized into useful categories
+    called entities and relationships. You’ll learn the meanings of these words as you continue.
+
+    ACTIVITY 1: ENTITIES
+    -> An entity is a noun representing a person, place, or thing. It’s not an adjective, verb, or other
+        article of speech.
+        
+        Recall Groucho Marx’s quote: “One morning, I shot an elephant in my pajamas. How he got in my
+        pajamas, I don’t know.”
+
+        ----------------------------------------------------------------------------
+        can be tokenized as entities        |       can't be tokenized as entities
+        ----------------------------------------------------------------------------
+                I                           |                    shot
+                elephant                    |                    an
+                pajamas                     |                    in
+                                            |                    my
+        ----------------------------------------------------------------------------
+
+        - I, elephant, and pajamas are entities because they are nouns.
+        - Shot, an, in, and my are not entities because they are not nouns.
+    
+
+    ACTIVITY 2: RELATIONSHIPS
+    -> A relationship is a group of two or more entities that have a strong connection to one another.
+
+        ----------------------------------------------------------------------------
+        can be tokenized as entities        |       can't be tokenized as entities
+        ----------------------------------------------------------------------------
+                I + elephant                |                  I + shot
+                I + pajamas                 |                  in + pajamas
+                elephant + pajamas          |                                     
+        ----------------------------------------------------------------------------
+
+        -For I + elephant, I + pajamas, and elephant + pajamas, both words in the pair are nouns and are
+            related entities.
+        - I + shot is not a relationship between entities. I is a noun but shot is a not.
+        - in + pajamas is not a relationship between entities. Pajamas is a noun but in is not.
+
+    Once an AI has classified entities and relationships in text or speech, the AI can begin structuring
+    the information as a step toward understanding it. Your brain, by the way, does the same thing,
+    which might have helped you find entities and relationships in the previous activities.
+    For example, consider the following two sentences: “Armen broke the glass. He always breaks the
+    glass.” Notice that there is a relationship between the two sentences: the word he is related to
+    the word Armen. The machine uses NLP to identify this relationship.
+
+
+    ACTIVITY 3: CONCEPTS
+    -> A concept is something implied in a sentence but not actually stated. This is trickier because it
+        involves matching ideas rather than the specific words present in the sentence.
+        
+        Recall Groucho Marx’s quote: “One morning, I shot an elephant in my pajamas. How he got in my
+        pajamas, I don’t know.”
+
+        ⁉️Based on this statement, select the words that are concepts implied, but not stated.
+        Hint: Three are implied, and one is stated.
+
+            Safari           Photographed            Rifle           Pajamas
+
+        ✅Safari: Correct! When Groucho says he shot an elephant (either with a weapon or—we hope—with a
+            camera), it’s possible that he’s referring to a safari without using that word.
+        ✅Photographed: Correct! When Groucho says he shot an elephant, it's possible that he's referring
+            to photographing rather than shooting the animal. 
+        ✅Rifle: Correct! When Groucho says he shot an elephant, it’s possible that he’s referring to a
+            rifle or some similar weapon, without using that word. By the way, in real life, Groucho was
+            well known for his kindness to animals.
+        ❌Pajamas: No, this word isn’t implied. It’s stated in the sentence.

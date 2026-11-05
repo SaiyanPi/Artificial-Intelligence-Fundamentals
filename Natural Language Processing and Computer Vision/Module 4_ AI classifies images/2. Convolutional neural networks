@@ -1,0 +1,27 @@
+Convolutional neural networks:
+
+- An AI system uses a convolutional neural network (CNN) to analyze images
+    Digital photos and videos build images with millions of pixels—tiny dots that, taken together, give
+    the human eye the illusion of a two-dimensional image. Each pixel has one of several million
+    brightness and color levels that can be expressed in numbers. A computer (including the camera in
+    a cellphone) can look at each of those pixels and input or output its numbers, either recording
+    (input) or displaying (output) an image. But it’s one thing to display an image and another, much
+    more complicated thing to analyze it.
+
+    The problem is caused by those millions of pixels with their color and brightness levels. They add
+    up to numbers so large that they would overwhelm most AI systems. (Research scientists say that too
+    much data can “flood” a system.) To get around this, research scientists have devised a clever way
+    to analyze only small parts of an image at a time. This process, called a convolutional neural
+    network, or CNN, makes it possible for visual recognition systems to identify things in an image,
+    as in facial recognition.
+
+    Martin Keen, an IBM Master Inventor, understands how a convolutional neural network brings image
+    analysis down to a practical scale. 
+    View on youtube:
+    https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FQzY57FaENXg%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQzY57FaENXg&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FQzY57FaENXg%2Fhqdefault.jpg&key=40cb30655a7f4a46adaaf18efb05db21&type=text%2Fhtml&schema=youtube
+
+- To summarize
+    In a CNN, two small groups of pixels that overlap each other are compared mathematically to get a
+    value. AI can use thousands of these small comparisons to identify individual parts of an image,
+    then compare them to images in its corpus. From this, AI can put together an overall identification,
+    without being overwhelmed.
