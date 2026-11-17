@@ -1,0 +1,45 @@
+MACHINE LEARNING IS OFTEN TRIAL AND ERROR:
+
+- Previous lessons in this course covered how a neural network makes decisions based on what it
+    learns. But you might still be wondering, how does a neural network learns in the first place.
+    The answer is: by continuously adjusting itself, in a process that humans refer to as trial
+    and error.
+
+- Once a neural network has ingested or already learned a certain amount of data, it stores the
+    data in its “body of information”, called its corpus. In order to learn, the neural network
+    constantly tests new data or the results of its calculation against its corpus. If the network
+    determines that the new data or results don’t match the patterns it has already established,
+    it modifies those patterns for a better fit. Sometimes, to improve a single match, the network
+    tests hundreds or thousands of modifications very rapidly and makes adjustments. Then, the
+    network tests to determine if the match is improving. So, step by step, the machine learns.
+
+- Machine learning makes many guesses
+    Machine learning uses its tremendous calculation speed to make many guesses that bring it
+    closer and closer to an answer. It randomly makes its first guess, sets that guess as a
+    variable, then tests how accurately the guess fits with both old and new data. Next, it makes
+    an adjustment to the variable and tries again. Using mathematical processes to help it choose
+    right-size adjustments, the system keeps on trying, getting closer and closer to perfection
+    but never quite reaching it. 
+    
+    For this reason, many AI systems output a confidence value along with an answer or prediction.
+    For example, a system predicting effective treatments for a cancer patient might output two or
+    three suggested approaches, along with a measure of how confident it is that each treatment
+    might work. This reflects how the system reaches those decisions. The system also leaves the
+    final decision to the doctor who knows the patient.
+
+    For this reason, many AI systems output a confidence value along with an answer or prediction.
+    For example, a system predicting effective treatments for a cancer patient might output two or
+    three suggested approaches, along with a measure of how confident it is that each treatment
+    might work. This reflects how the system reaches those decisions. The system also leaves the
+    final decision to the doctor who knows the patient.
+
+    Any computer can perform at least a crude kind of machine learning based on cycles of
+    estimation. Classical machine learning can do it, too. But depending on the complexity of a
+    problem, a conventional computer or even a classical system might take days (or centuries!)
+    to reach a conclusion.
+
+    In many modern applications of AI, the unstructured data involved is complex enough to
+    overwhelm even a simple perceptron, such as to decide whether to order pizza in a previous
+    lesson. So, a perceptron requires more brainpower in the form of deep learning. Deep learning
+    relies on multiple layers of nodes (even multiple groups of perceptrons with multiple layers
+    of nodes!) to finish the work in reasonable time.

@@ -1,0 +1,61 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned
+
+1. Maria is involved in training the AI for her company. She separates weather data in a database into
+    different categories. What type of learning is she preparing?
+
+    - Reinforcement learning
+
+    - Unsupervised learning
+
+    - Supervised learning ✅
+
+    - Deep learning
+
+
+2. Pedro is working with a chess-playing AI system. He rewards it when it wins and penalizes it when it
+    loses. What kind of learning is the system experiencing?
+
+    - Structured learning
+
+    - Unsupervised learning 
+
+    - Reinforcement learning ✅
+
+    - Supervised learning
+
+
+3. Katie has a huge amount of warehouse data to sort but doesn’t know how to categorize it. 
+    Which method of machine learning would help her the most?
+
+    - Classical learning
+
+    - Reinforcement learning
+
+    - Supervised learning
+
+    - Unsupervised learning ✅
+
+
+4. Which of the following statements is correct?
+
+    - Reinforcement learning is classiﬁed by humans.
+
+    - Supervised learning requires humans to provide labeled data. ✅
+
+    - Supervised learning requires no human input. except for the raw data itself.
+
+    - Unsupervised learning requires human input except on the raw data.
+
+
+5. Aditi is training an AI system in which it is penalized for answers that are largely wrong and
+    rewarded for answers that are largely correct. What type of machine learning is she using?
+
+    - Supervised learning
+
+    - Unsupervised learning
+
+    - Reinforcement learning ✅
+
+    - Structured learning

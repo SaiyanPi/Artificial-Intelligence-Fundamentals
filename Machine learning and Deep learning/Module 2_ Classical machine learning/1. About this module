@@ -1,0 +1,15 @@
+MODULE 2: CLASSICAL MACHINE LEARNING
+--------------------------------------------------------------------------------------------------------
+
+INTRODUCTION: 
+
+- In this module you’ll learn how classical types of machine learning explore unstructured data, and
+    you’ll identify situations where these methods remain useful today.
+
+
+LEARNING OBJECTIVES:
+
+- After completing this module, you should be able to:
+    -> Describe decision trees, linear regression, and logistic regression
+    -> List and explain advantages of classical machine learning
+    -> Describe and explain how a sigmoid function is used in machine learning

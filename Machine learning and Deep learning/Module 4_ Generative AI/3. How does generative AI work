@@ -1,0 +1,73 @@
+HOW DOES GENERATIVE AI WORK?
+
+- Think of generative AI as a virtual artist. Just like a human artist, it needs inspiration and
+    tools to create something unique. Instead of using paint and canvas, however, generative AI
+    uses algorithms and data sets.
+    Here’s the overall generative AI process.
+
+    1. First, a person feeds the AI a large amount of data. This could be anything from images
+        and sounds to text and numbers.
+    
+    2. Then, the AI analyzes this data, looking for patterns and relationships between the
+        different pieces of information. The neural network is trained on a dataset of examples of
+        the type of output it is intended to generate, such as images or text. During the training
+        process, the neural network learns to identify patterns and relationships in the input
+        data and use them to generate new outputs that are similar to, but not identical to, the
+        examples it was trained on.
+    
+    3. Next, the AI uses what it has learned to create something new. The neural network generates
+        new outputs by inputting a random seed value. The seed value serves as the starting point
+        for the generation process. The neural network processes the seed value and generates a
+        new output that is based on the patterns and relationships it learned during training.
+        For example, if someone gave the AI a set of images of dogs, it might use its knowledge of
+        different dog breeds to create an image of a new dog that doesn't exist in real life.
+
+- Generative AI can also complete more complex tasks, like writing stories or composing music. In
+    these cases, the AI analyzes patterns in language or music to create something entirely new.
+    Of course, not all generative AI is perfect. Just like human artists, sometimes the results
+    can be a bit strange or unexpected. However, as this technology improves, you can expect to
+    see even more impressive creations from generative AI in the future!
+
+- Types of generative AI models
+    Let’s explore the three primary types of generative AI models: 
+        1. Variational autoencoder (VAE)
+        2. Generative adversarial network (GAN)
+        3. Autoregressive
+    To understand these concepts, you’ll learn about simple analogies for each model.
+
+    1. Variational autoencoder (VAE)
+        -> Think of a VAE as a translator. It takes in data, like an image, and translates it into
+            a simpler representation, like a sketch. Then, it can take that sketch and translate
+            it back into a new image that looks similar to the original but is not identical.
+        -> VAEs use a similar process. The "encoder" network compresses the input data into a
+            lower-dimensional representation and the "decoder" network reconstructs the original
+            data from this compressed representation. This allows VAEs to capture the underlying
+            structure and patterns in the data, which can then generate new, similar data.
+    
+    2. Generative adversarial network (GAN)
+        -> Think of a GAN as a competition between two artists. One artist creates new pieces of
+            art, while the other critiques them. The first artist tries to improve their work based
+            on the feedback from the second artist, and the second artist tries to get better at
+            critiquing. This back-and-forth process continues until the first artist creates a
+            piece of art that is indistinguishable from real art.
+        -> GANs use a similar process. The "generator" network creates new data, while the
+            "discriminator" network evaluates it and provides feedback. The generator uses this
+            feedback to improve its output, and the discriminator uses it to become better at
+            distinguishing between real and generated data. This iterative process continues until
+            the generator produces data that is indistinguishable from real data.
+    
+    3. Autoregressive
+        -> Think of an autoregressive model as a storyteller. It takes in a few words and uses them
+            to predict the next word in the story. Then, it takes that new word and uses it to
+            predict the next one, and so on, until it has created an entire story.
+        -> Autoregressive models use a similar process. They generate new data by predicting the
+            next value in a sequence based on the previous values. This allows them to capture
+            the temporal dependencies and patterns in the data, which can then generate new,
+            similar sequences.
+
+- By understanding the three types of generative AI, you can gain a deeper appreciation for the
+    incredible possibilities that technology offers for creative expression. Whether you're a
+    musician, artist, or writer, generative AI can be a powerful tool to help you explore new
+    ideas and push the boundaries of your craft. As the field of generative AI continues to evolve,
+    it's exciting to imagine what kind of new and innovative creations we'll be able to generate
+    in the years to come.

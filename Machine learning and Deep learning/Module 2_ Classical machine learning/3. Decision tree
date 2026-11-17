@@ -1,0 +1,26 @@
+DECISION TREE:
+
+- A decision tree is a supervised learning algorithm. It operates like a flowchart. You can think of a
+    flowchart as an upside-down decision tree. The flowchart has a root node (where the flowchart
+    begins), branches that connect to internal nodes, and more branches that connect to leaf nodes.
+    (see decision_tree.png)
+
+- How does a classical machine learning system use a decision tree? It starts with a known set of data,
+    like this one.
+
+        Day     Outlook     Temp    Humidity	Wind	    Surfing?
+    ----------------------------------------------------------------------
+        D1      Sunny       Hot	    High	    Weak	    No
+        D2      Sunny       Hot     High        Strong      No
+        D3      Overcast    Hot     High        Weak        Yes
+        D4      Rain        Mild    High	    Weak        Yes
+        D5      Rain        Cool    Normal      Weak        Yes
+        D6      Rain        Cool    Normal      Strong      No
+        D7      Overcast    Cool    Normal      Weak        Yes
+        D8      Sunny       Mild    High        Weak        No 
+        D9      Sunny       Cold    Normal      Weak        Yes
+        D10     Rain        Mild    Normal      Strong      Yes
+
+    With some mathematical calculations, a classical AI system can digest this table plus additional
+    information about dates and waves, possibly from a different source. Then, the system can make a
+    reasonably accurate prediction about surfing today—or any day!

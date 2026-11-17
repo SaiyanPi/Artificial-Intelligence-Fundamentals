@@ -1,0 +1,36 @@
+LOGISTIC REGRESSION:
+
+- In some situations, a relationship does not fall in a straight line. Sometimes a system uses values
+    that require a specific, limited kind of outcome, such as something between 0 and 1 (or NO and YES).
+    In this situation, a graph can form what’s called a sigmoid function, or an S-shaped curve, as shown
+    in the accompanying example. For any set of variables, the outcome (which is a point on the S-curve)
+    falls between 0 and 1.
+
+- Logistic Regression predicts class probabilities
+- The sigmoid function converts a linear score into a probability.
+
+- Comparing linear and logistic regressions:
+    Linear and logistic regressions are useful in the following ways:
+    -> A linear regression answers a question such as “If this increases by X, how much will Y increase?”
+    -> A logistic regression answers a question such as “If this increases by X, will the value of Y be
+        closer to 0 or 1?”
+
+- What do you think?
+    You likely use three forms of classical learning analysis—decision trees, logistic regression, and
+    linear regression—in your own life. Next, try this sorting activity to review these concepts.
+
+        What major should i take, based
+        on professors' names and my level   ---->   Decision tree
+        of interest
+
+        How do advance placement(AP)
+        classes passed related to           ---->   Linear regression
+        college acceptance?
+
+        How do hours spent studying         ---->   Logistic regression
+        relate to passing an exam?
+    
+    -> An exam passed or failed is binary (YES or NO) so relating it to hours studied would use logistic
+        regression.
+    -> More AP classes passed leading to more college acceptances would use linear regression.
+    -> Deciding a major would use a decision tree based on professors' names and personal interest.

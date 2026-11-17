@@ -1,0 +1,8 @@
+MACHINES LEARN IN THREE GENERAL WAYS:
+
+- AI systems use algorithms to predict and classify data points collected both from computer databases
+    and natural occurrences. But algorithms have three general ways that they can learn from this data
+    to get better results and provide better predictions:
+    1. Supervised learning
+    2. Unsupervised learning
+    3. Reinforcement learning

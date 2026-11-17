@@ -1,0 +1,33 @@
+ABOUT THIS COURSE:
+
+- Machines can learn. They might begin performing tasks poorly but, with the help of artificial
+    intelligence (AI), they can improve their work, becoming experts at something that might take a
+    human many years to learn. In fact, even the AI in your smartphone can use machine learning to
+    reason through subjects that no human has ever been able to master.
+
+- How is this possible? To find out, you'll explore three categories of AI: 
+    1. The term artificial intelligence describes computer systems that can apply reasoning to subjects
+        that previously required human intelligence.
+    2. Machine learning can enable systems to predict and classify given data in response to ever
+        changing data, somewhat like the way you learn from experience.
+    3. Deep learning is a group of extremely powerful types of machine learning, many of which are
+        inspired by the operation of neural networks in the human brain.
+
+- These AI systems do not have common sense or world knowledge, nor do they have a sense of self (at
+    least, not yet). But they do acquire knowledge and understanding through experience—a process called
+    cognition—accomplishing results that resemble human thinking. They do this primarily by using
+    complex rules called algorithms that help them analyze data.
+
+- Learning objectives
+    After completing this course, you should be able to: 
+    -> Distinguish between artificial intelligence, machine learning, and deep learning
+    -> Describe supervised, unsupervised, and reinforcement learning
+    -> Describe decision trees, linear regression, and logistic regression
+    -> List and explain advantages of classical machine learning
+    -> Describe how neural networks are inspired by the human brain
+    -> Trace the flow of information through a perceptron’s nodes
+    -> Describe machine learning’s trial-and-error learning process
+    -> Define and describe deep learning and its ecosystem
+    -> Identify real-world applications for the deep learning ecosystem
+    -> Explain generative AI and the impact in today's world
+    -> Identify future trends for machine learning

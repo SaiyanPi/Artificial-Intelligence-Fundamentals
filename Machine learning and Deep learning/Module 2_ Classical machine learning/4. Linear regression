@@ -1,0 +1,8 @@
+LINEAR REGRESSION:
+
+- Linear regression is another type of algorithm. It relates to data that might be graphed as a straight
+    line. For example, a business might believe that more advertising spending leads to better sales.
+    This could be graphed as a series of dots that form a rising straight line.
+    (see linear_regression.png)
+
+- Linear Regression predicts numerical values.

@@ -1,0 +1,64 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned.
+
+1. How can you demonstrate the concept of machine learning?
+
+    - Determine how hot a cup of coffee should be by consulting a list of preferred brewing
+        temperatures.
+
+    - Determine the farthest distance from a target that an archer can reliably hit bullseyes by
+        shooting arrows repeatedly while walking closer and closer to the target. ✅
+
+    - Determine the best way to book airline connections by running through a decision tree of
+        possible flights, destinations, and departure dates and times.
+
+    - Every day for two weeks, ask a librarian what books to read and keep a record of each
+        recommendation.
+
+
+2. After calculating values, what do neural networks often assign to those values that impact the
+    final result?
+
+    - Weight ✅
+
+    - Cosine
+
+    - Activation
+
+    - Angles
+
+
+3. Fill in the blank. In deep learning, many forms of _______________ devices make up the deep
+    learning ecosystem.
+
+    - deep ecoNet
+
+    - deep capillary network
+
+    - deep neural network ✅
+
+    - deep ID net
+
+
+4. What kind of brain cells inspired the creation of neural networks?
+
+    - Neuro bots
+
+    - Neuroses
+
+    - Neurons ✅
+
+    - Neuralgias
+
+
+5. You are designing a perceptron. Where will you locate the algorithms that run on the signal and
+    then next passes the results to the output layer?
+
+    - In the hidden layers ✅
+
+    - In the neurotransmitter
+
+    - In the input layer
+
+    - In the nucleus

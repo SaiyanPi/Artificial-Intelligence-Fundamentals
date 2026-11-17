@@ -1,0 +1,18 @@
+CLASSICAL MACHINE LEARNING:
+
+- Classical machine learning began in the 1950s. AI systems learned by ingesting data and getting better
+    at recognizing patterns. The AI systems could predict things like the distance between points or
+    the intensity of values.
+
+- Like all machine learning, the classical form depends on algorithms. Recall that algorithms are
+    mathematical expressions that output a result. Classical machine learning uses a small number of
+    algorithms in a relatively simple arrangement. Sometimes machine learning algorithms are binary,
+    which means that they output one of only two values. Typical binary results might be a 1 or a 0,
+    a YES or a NO, and a TRUE or a FALSE.
+
+- Other classical learning algorithms are more complicated. For example, their result might be
+    represented as a position on a multidimensional graph rather than “this point” or “that point”.
+    Here are three typical algorithms that are used in classical computing:
+    -> Decision tree
+    -> Linear regression
+    -> Logistic regression

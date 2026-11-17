@@ -1,0 +1,207 @@
+FINAL ASSESSMENT:
+
+1. Which of the following is an advantage of classical machine learning compared to deep learning?
+
+    - Classical machine learning works well with unstructured data.
+
+    - Classical machine learning outperforms deep learning ecosystems.
+
+    - Classical machine learning is easier to interpret. ✅
+
+    - Classical machine learning is more expensive to operate, but gives better results.
+
+
+2. Complete the sentence. Deep learning can be differentiated from classical machine learning in
+    that deep learning exclusively uses _______________. 
+
+    - decision trees
+
+    - reinforcement learning
+
+    - linear regression
+
+    - artificial neural networks ✅
+
+
+3. What is the primary source of inspiration for the design of neural networks?
+
+    - Neural networks draw inspiration solely from conventional computer architectures and
+        algorithms.
+
+    - Neural networks are inspired by the complex behaviors of animals in their natural
+        environments.
+
+    - Neural networks derive their design principles from mechanical engineering principles and
+        systems.
+
+    - Neural networks are primarily inspired by the workings of the human brain and its
+        interconnected neurons. ✅
+
+
+4. Which of the following best describes how machine learning’s trial-and-error learning process
+    works?    
+
+    - Machine learning learns by memorizing all possible outcomes and selecting the most common one
+        as the correct answer.
+
+    - Machine learning relies solely on preset algorithms to generate results without any
+        adjustment or modification.
+
+    - Machine learning adjusts itself by constantly testing new data against its corpus, making
+        modifications based on established patterns. ✅
+
+    - Machine learning makes random adjustments to its algorithms without testing them against
+        existing data.
+
+
+5. In a bustling city, Emma, a real estate agent, is tasked with predicting housing prices for
+    prospective buyers. She collects data on various factors such as square footage, number of
+    bedrooms, neighborhood, and distance to amenities. Emma wants to understand how changes in
+    these variables impact the selling price of homes.
+    Which of the following methods would Emma most likely use to analyze the relationship between
+    housing prices and factors such as square footage, number of bedrooms, and neighborhood?
+
+    - Analytical regression
+
+    - Logistic algorithm
+
+    - Decision tree
+
+    - Linear regression ✅
+
+    💡Linear regression allows Emma to input the variables and calculate a reasonably good
+    prediction of how those variables will affect housing prices.
+    
+
+6. Which of the following encompasses the use of neural networks with multiple hidden layers to 
+    analyze complex data and make predictions?
+
+    - Statistical methods for pattern recognition
+
+    - Classical algorithms for data analysis
+
+    - Machine learning with single-layer neural networks
+
+    - Deep learning ✅
+
+
+7. Which of the following is revolutionizing industries by improving decision making, personalizing
+    customer experiences, and enhancing operational efficiency?
+
+    - Generative adversarial network (GANs)
+
+    - Variational autoencoders (VAEs)
+
+    - Generative AI ✅
+
+    - Autoregressive models
+
+
+8. You’re writing a science ﬁction story in which the main character is travelling from Earth to
+    the Andromeda galaxy. The main character uses the ship’s AI system to think just like a human
+    to keep the ship safe throughout the voyage.
+    Which of the following types of AI best describes the ship’s AI system?
+
+    - General AI ✅
+
+    - Narrow AI
+
+    - Broad AI
+
+
+9. Which of the following describes how information flows through the nodes of a perceptron in a
+    neural network?
+
+    - Information flows from the output layer to the hidden layers, where algorithms are applied,
+        and then to the input layer.
+
+    - Information flows randomly between all layers of the perceptron.
+
+    - Information flows directly from the input layer to the output layer, bypassing the hidden
+        layers.
+
+    - Information flows from the input layer to the hidden layers, where algorithms are applied,
+        and then to the output layer. ✅
+
+
+10. As part of research team, you are tagging images of animals in a database as either “dogs” or
+    “not dogs”.
+
+    - What kind of machine learning are you preparing for?
+
+    - Reinforcement learning
+
+    - Supervised learning ✅
+
+    - Unsupervised learning
+
+
+11. Henri is training an AI system. He has loaded the rules of the Chinese game of Go into the
+    system. As the AI system plays its ﬁrst few games, winning some and losing some, it gradually
+    improves.
+    What type of learning is Henri using to train the AI system?
+
+    - Unsupervised learning
+
+    - Supervised learning
+
+    - Reinforcement learning ✅
+
+    💡Reinforcement learning was used to train the AI system in this scenario. In reinforcement
+    learning, the machine learns through trial and error, receiving rewards for correct actions
+    and penalties for incorrect actions.
+
+
+12. Which of the following is a distinguishing feature of generative AI?
+
+    - Generative AI predicts and classifies data such as discriminative AI models.
+
+    - Generative AI uses algorithms to identify patterns and relationships in existing data, but
+        it cannot create entirely new content.
+
+    - Generative AI generates new and original content based on a given prompt or data set. ✅
+
+    - Generative AI relies solely on human input to generate content and does not have the
+        capability to learn from data.
+
+
+13. Deep learning models are preferred over classical machine learning models in situations where
+    which of the following occurs?
+
+    - The task involves simple classification problems.
+
+    - The problem requires understanding of temporal dynamics such as in time series analysis.
+
+    - The data is already in a structured format such as a CSV file or table.
+
+    - The data set is very large and consists of unstructured data, such as images or text. ✅
+
+
+14. In a neural network, which of the following layers is where the activation algorithm is “fired”?
+
+    - Input layer
+
+    - Hidden layer ✅
+
+    - Axon layer
+
+    - Output layer
+
+    💡The activation algorithm is used in the hidden layer and only “fires” when the total weight
+    reaches a certain threshold.
+
+
+15. In which scenario would logistic regression most likely be used?
+
+    -  Predicting the grades of students based on the number of extracurricular activities they
+        participate in.
+
+    - Predicting the likelihood of customers purchasing a product based on their browsing ✅
+        history.
+
+    - Determining the relationship between temperature and ice cream sales.
+
+    - Analyzing the correlation between income and education level.
+
+    💡Correct! Logistic regression would be suitable for predicting the likelihood of a binary
+        outcome (purchase or no purchase) based on browsing history, which is categorical.

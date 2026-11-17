@@ -1,0 +1,11 @@
+UNSUPERVISED LEARNING:
+
+- In contrast to supervised learning, unsupervised learning trains a machine with unlabeled data, such
+    as the text of a book. Training an AI system with unlabeled data is more difficult because the
+    system can’t make predictions until it has structured the data itself. In the book example,
+    structuring the data would involve breaking down the text and finding relationships between words
+    and sentences. So, algorithms explore the data and try to find structure. 
+
+- For example, a system might be fed many articles about different kinds of plants and form its own
+    conclusions of their attributes. When the system ingests new text describing a plant, it identifies
+    it and gives it a confidence value.

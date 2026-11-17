@@ -1,0 +1,25 @@
+SUPERVISED LEARNING:
+
+- In supervised learning, humans give an AI system what’s called structured data. This is a set of facts
+    and figures arranged into neat, labeled categories, the way you might put weather information into
+    a table.
+
+            Hours of study  |   Final day
+        ------------------------------------
+                4               80
+                6               90
+                8               100
+    
+    Using the way the data has been structured, the AI system can detect patterns (such as day-to-day
+    temperature changes in the table above) and use those patterns to predict future data (such as
+    temperatures during the following week).
+
+- Structured data can also take the form of images. If, for example, the data includes photos of flowers,
+    some of which are roses and are labeled rose, the machine will learn things about the arrangements
+    of pixels in those photos. Later, when it sees a new rose photo and is asked, “What is this?”, it
+    will respond “rose”.
+
+- As you’ll soon discover, the machine will never give this result with absolute confidence. Instead,
+    the system will give a confidence value to indicate, for example, that it might predict with 85%
+    certainty that its answer is correct. The more data the system ingests, the higher its accuracy will
+    be.

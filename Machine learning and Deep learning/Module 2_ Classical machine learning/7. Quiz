@@ -1,0 +1,63 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned
+
+1. What type of algorithm would help you ﬁnd out what you might earn for a salary if you have different
+    levels of college degrees in computer science?
+
+    - Neural network
+
+    - Supervised learning
+
+    - Linear regression ✅
+
+    - Logistic tree
+
+
+2. You’ve been asked to create a machine learning service that helps people choose what concert to
+    attend on a particular date based on the type of music they prefer, who is singing, and where the
+    event is taking place. What type of algorithm should you use?
+
+    - Logistic regression
+
+    - Reinforcement learning
+
+    - Linear regression ✅
+    - Decision tree 
+
+    - Supervised learning
+
+
+3. Which of the following is an important difference between linear and logistic regressions?
+
+    - Only linear regressions have outputs that cannot be resolved.
+
+    - Only logistic regressions have outputs between 0 and 1. ✅
+
+    - Only linear regressions have outputs shaped like an S-curve.
+
+    - Only logistic regressions follow branching logic paths to an answer.
+
+
+4. Which of the following is an advantage of classical machine learning compared to deep learning?
+
+    - It’s obsolete.
+
+    - It’s more expensive to operate.
+
+    - It’s easier to interpret. ✅
+
+    - It’s better performance on big data.
+
+
+5. You want to know how many hours to study to pass an exam. The “hours of studying” data forms a
+    sigmoid function, or an S-shaped curve, between “fail” and “pass”. Which learning algorithm could
+    you use?
+
+    - Unsupervised learning
+
+    - Decision tree
+
+    - Logistic regression ✅
+
+    - Stochastic learning

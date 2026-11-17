@@ -1,0 +1,23 @@
+FROM PERCEPTRONS TO DEEP LEARNING:
+
+- In a previous lesson, Marc ordered a pizza using a perceptron in which one hidden layer of nodes
+    did most of the work. But advanced AI systems use many hidden layers whose algorithms pass the
+    results of sophisticated calculations. This is a deep neural network (DNN). DNN layers can be
+    arranged in groups or elaborate blocks of groups for greater power. DNNs can even be doubled
+    in competing teams that judge and learn from each other’s mistakes, without human intervention.
+    This creates powerful reinforcement learning. ( see deep_neural_network.png )
+
+- What DNNs can do?
+    -> Technologists can use a DNN to examine an historic photo of unknown persons or places. The
+        DNN compares what it finds with millions of pictures in its corpus and then outputs full
+        names and possible locations.
+    -> Real estate companies an use a DNN to predict changes in housing prices across an entire
+        city or state. DNNs can help real estate companies predict business trends and determine
+        how to invest in materials and labor.
+    -> Automobile engineers can use DNNs to model millions of driving situations and help
+        self-driving vehicles navigate safely.
+    -> Radiologists can use DNNs to identify variations in MRI images that are otherwise invisible
+        to the human eye. Radiologists can receive early warnings of potentially treatable cancers.
+
+- An internet search for deep neural network examples can reveal many additional ways that machine
+    learning impacts your life. Many forms of DNN devices make up the modern deep learning ecosystem.

@@ -1,0 +1,95 @@
+A PATH THROUGH A NEURAL NETWORK:
+
+- The operation of a neural network is pure mathematics. The network isn’t “thinking”; it is
+    calculating. But it’s using those calculations to create an output that humans can interpret
+    as an answer or a recommendation.
+
+- For example, consider the following scenario: Marc is trying to decide if he should order a
+    pizza. Marc wonders how a neural network might respond to the question, “Should I order a
+    pizza?” The following scenario provides the step-by-step flow of decision making as individual
+    nodes perform algorithms and pass on their results.
+
+    STEP 1: Should I order a pizza? I’ll ask the neural network.
+
+                                        Hidden layer
+                                            🔵
+                        Input Layer     /         \         Output layer
+                            🟢         --   🔵  --            🔵
+                                        \         /         
+                                            🔵  
+
+        This neural network has already been trained. It has learned many things about Marc’s past
+        pizza buying behavior, so it’s ready to suggest whether Marc is likely to order one today.
+        Today, the neural network is going to invoke three things it has observed:
+        i. Marc usually orders ahead.
+        ii. Marc is trying to lose weight, so lately he’s ordered pizza less often.
+        iii. Marc’s email includes a coupon for a free pizza.
+        Now Marc asks, “Am I likely to order a pizza today?”
+
+    STEP 2: Ordering ahead?
+    
+                                        Hidden layer
+                                            🟢
+                        Input Layer     /         \         Output layer
+                            🔵         --   🔵  --            🔵
+                                        \         /         
+                                            🔵  
+        One node in the hidden layer looks up Marc’s buying pattern and observes that Marc always
+        orders ahead. So, the node assigns ordering ahead a value of 1. (For clarity, one (1) and
+        zero (0) values are used.)
+        The system has learned something else about Marc’s ordering: Marc gives more weight to
+        some factors than others. So, the system gives each factor a weight based on Marc’s past
+        behavior. The more Marc tends to do something, the higher the weight.
+        Marc always orders ahead, so the system gives today’s order-ahead factor a weight of 3.
+        Multiplying the initial value (1) by the weight (3) gives the node an output value of 3.
+        So far, the total value of the ordering factor is: 1 x 3 = 3    
+
+    STEP 3: Getting salad instead?
+    
+                                        Hidden layer
+                                            🔵
+                        Input Layer     /         \         Output layer
+                            🔵         --   🟢  --            🔵
+                                        \         /         
+                                            🔵  
+        The next node in the hidden layer registers that, lately, Marc has been ordering a salad
+        about half the time. So, the node gives the salad option an initial value 0.5.
+        The system also knows that Marc is not consistent about avoiding pizza for his diet, so it
+        gives the option to order a salad a weight of 0.5.
+        The initial value (0.5) multiplied by the weight (0.5) is 0.25. 0.5 x 0.5 = 0.25
+    
+    STEP 4: Coupon for a free pizza?
+    
+                                        Hidden layer
+                                            🔵
+                        Input Layer     /         \         Output layer
+                            🔵         --   🔵  --            🔵
+                                        \         /         
+                                            🟢
+        The third node in the hidden layer knows that Marc has a coupon for a free pizza. So, it
+        gives the coupon a factor of 1.
+        Finally, the system observes that Marc always uses free coupons as fast as they arrive.
+        So, the system multiplies the coupon factor by a weight of 5: 1 x 5 = 5
+        With these algorithms now run, the system advances results from all three hidden layer
+        nodes to the output node.
+    
+    STEP 5: Weighting the answers
+    
+                                        Hidden layer
+                                            🔵
+                        Input Layer     /         \         Output layer
+                            🔵         --   🔵  --            🟢
+                                        \         /         
+                                            🔵  
+        The hidden layer has one more step to perform: using an activation algorithm. This is an
+        algorithm that will “fire” only when the total weight from Marc’s preferences algorithms
+        reaches a certain threshold.
+        Suppose that, for pizza, the threshold is reached when the total weight is greater than or
+        equal to 6. The final node adds all three factor values. The result is 8.25.
+            3 + 0.25 + 5 = 8.25
+        That’s greater than the threshold of 6, so… …IT’S PIZZA FOR SUPPER TONIGHT!
+
+
+- As the previous scenario illustrates, in a neural network, individual nodes in a layer work on
+    algorithms simultaneously. The nodes not only calculate but also adjust themselves in response
+    to external factors. This is machine learning.

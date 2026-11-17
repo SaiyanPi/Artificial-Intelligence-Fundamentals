@@ -1,0 +1,23 @@
+REINFORCEMENT LEARNING:
+
+- With reinforcement learning, a machine is not given specific information to ingest. Instead, it learns
+    through trial and error. The machine’s algorithms are rewarded when it performs a correct action and
+    penalized when it doesn’t.
+
+- Suppose this system is given a photo that probably depicts a dog, and it’s asked, “Is this a dog?”
+    Remember, it has been fed little or no structured information about dogs. The machine answers YES
+    or NO, and gives itself a confidence value that is somewhere between 100% correct and
+    100Reinforcement learning% incorrect. 
+
+    Then it is given new information indicating whether that answer really was right or wrong. This is
+    where the reinforcement takes place. For each answer that’s largely wrong, the machine is penalized:
+    its algorithms are adjusted and the picture is sent back for another try. But for each answer that’s
+    largely correct, the algorithms are rewarded. 
+
+    After these penalties and rewards happen many times, the machine’s answers become more accurate and
+    its confidence value grows higher.
+
+- This is particularly useful when a machine needs to work on a specific type of problem. The machine
+    continuously make decisions until it reaches a long-term goal. Each decision the machine makes is
+    based on the previous decision. This is common in an area like game-playing, where a series of moves
+    can win or lose a game.

@@ -1,0 +1,22 @@
+CLASSICAL MACHINE LEARNING IS NOT OBSOLETE:
+
+- Classical machine learning can be outperformed, at some tasks, by newer methods that are part of the
+    deep learning ecosystem. But there are still reasons to use classical machine learning. These
+    include:
+    -> Work with structured data
+        Classical machine learning is used mostly with structured data from databases, such as hours
+        studied compared to grades earned.
+
+    -> Lower expense to operate
+        Classical machine learning requires less computing power than deep learning ecosystems. They can
+        run on less expensive computers with less powerful processors, which lowers the price for
+        smaller businesses, communities, or healthcare systems that share time on them in pay-as-you-go
+        arrangements.
+
+    -> Easier to interpret
+        Deep networks are so complex that even AI researchers don’t entirely understand what’s going on
+        inside. As a result, AI researchers are not always able to determine when deep network systems
+        are producing invalid outputs. Compared to these mysteries, classical results can be easier to
+        debug, and to test for accuracy and lack of bias.
+
+    For these reasons, classical learning systems are still useful today.

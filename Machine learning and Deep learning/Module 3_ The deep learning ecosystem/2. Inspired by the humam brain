@@ -1,0 +1,50 @@
+INSPIRED BY THE HUMAN BRAIN:
+
+- Today, machine learning has evolved into a collection of powerful applications called the deep
+    learning ecosystem. The foundation for many applications is called a neural network. A neural
+    network uses electronic circuitry inspired by the way neurons communicate in the human brain. 
+
+- In the brain, cells called neurons have a cell body at one end where the nucleus resides, and a
+    long axon leading to a set of branching terminals at the other end. Neurons communicate to
+    each other by receiving signals into the axon, altering those signals, then transmitting them
+    out through the terminals to other neurons. Researchers estimate that a human brain has about
+    100 billion neurons, each one connected to up to 10,000 other neurons.
+    (see human_neuron_cell.png)
+
+- In a neural network, a building block, called a perceptron, acts as the equivalent of a single
+    neuron. A perceptron has an input layer, one or more hidden layers, and an output layer. A
+    signal enters the input layer and the hidden layers run algorithms on the signal. Then, the
+    result is passed to the output layer. (see machine_learning_perceptron.png)
+
+- Comparing the structures of a living neuron and a neural network's perceptron:
+    1. Biological input:
+        -> A signal passes from the terminal of one neuron into the axon of another, using a
+            combination of electrical and chemical reactions.
+    
+    2. Biological input and response:
+        -> Signals enter the cell body, which computes a response that then emerges from the other
+            end of the cell.
+    
+    3. Neural network input and response:
+        -> Similar to the way a signal passes through and is altered by a neuron, a signal enters
+            a perceptron’s input layer, then passes through and is altered by algorithms within
+            nodes in the hidden layer. Then the response emerges from the hidden layer and is
+            transmitted onward from the neuron’s output layer.
+    
+    The hidden layers in a neural network resemble, as a group, the long cell body that connects
+    dendrites to axons within a human brain cell. Those hidden layers contain nodes. Each node
+    runs an algorithm and bits of additional code to test and adjust its result. When the value
+    reaches a certain threshold, the node “fires”.
+
+    Note: A node often uses a sigmoid function to determine whether or not to “fire”. As explained
+    previously, a sigmoid function can generate a binary answer, such as, YES or NO. The binary
+    answer tells the node whether or not to fire. You can think of the threshold as a hurdle a
+    solution must jump over to give a result of YES.
+
+    If there are other nodes connected to the node, they are activated when the signal reaches
+    them. If the other nodes reach their own thresholds, then they fire. The signal cascades down
+    through the hidden layers in a way that’s somewhat similar to how a signal passes down the
+    body of a human brain cell.
+
+    Keep in mind that these resemblances are only similarities. Neural networks are inspired by
+    the human brain, but the activities inside neural networks are quite different.

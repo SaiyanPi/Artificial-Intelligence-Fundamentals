@@ -1,0 +1,17 @@
+MODULE 3: THE DEEP LEARNING ECOSYSTEM
+--------------------------------------------------------------------------------------------------------
+
+INTRODUCTION: 
+
+- Neural networks are inspired by human brain cells. In this module, you’ll learn how neural
+    networks can greatly enhance an AI system’s ability to analyze complex data and improve its
+    results through trial and error.
+
+
+LEARNING OBJECTIVES:
+
+- After completing this module, you should be able to:
+    -> Describe how neural networks are inspired by the human brain
+    -> Trace the flow of information through a perceptron’s nodes
+    -> Describe machine learning’s trial-and-error learning process
+    -> Define and describe deep learning and its ecosystem
