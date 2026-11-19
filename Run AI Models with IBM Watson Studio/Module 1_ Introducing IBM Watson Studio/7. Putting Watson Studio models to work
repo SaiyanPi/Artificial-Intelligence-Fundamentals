@@ -1,0 +1,28 @@
+PUTTING WATSON STUDIO MODELS TO WORK:
+
+- When a classical computer program is not enough
+    Today businesses, industries, and governments need more computing power than seemed enough just
+    a few years ago. They depend on data analysis that can only be developed from machine learning
+    models, using tools like IBM Watson Studio.
+
+    Consider, for example, the problem faced by a sneaker manufacturer that wants to know what
+    customers think and say about its products. This information could help it plan product
+    distribution for today and keep up with new trends in the future. The best way to discover
+    these things might be to study product reviews people have posted, and also study IM texts
+    sent by the manufacturer’s teen and young adult customers. What are they saying? What do they
+    love or hate? What new thing did they just see that they really want to buy?
+
+    Here are some of the things that make this discovery difficult.
+
+    -> Millions of social media posts hit the internet every hour across Twitter, TikTok, and others.
+    -> Those posts cover zillions of topics, most of which have nothing to do with sneakers.
+    -> Posts that do mention sneakers might do so in countless different contexts.
+
+- Even if a conventional computer could be programmed and given enormous resources to keep up with
+    this flood of data, sneaker fashions change without warning—and those changes cannot be
+    predicted or prepared for with traditional program code.
+
+- But with IBM Watson Studio, a modest-size team of specialists could build a machine learning
+    model that will, as time goes by, get better and better at spotting major trends in sneaker
+    design. It could even follow celebrity fashions, then begin predicting new trends more and
+    more effectively.

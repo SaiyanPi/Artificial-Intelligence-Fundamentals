@@ -1,0 +1,83 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned.
+
+
+1. When your Pipeline notebook first displays, what form does it take?
+
+    - JavaScript enabled
+
+    - Edit only
+
+    - Details undefined
+
+    - View only ✅
+
+    💡When your Pipeline notebook first displays, it’s currently view only. You need to take
+    additional steps in order to edit it.
+
+
+2. When you first save a notebook, it displays in editable form, but it is not _______________.
+    Which option best completes the sentence?
+
+    - defined
+
+    - trusted ✅
+
+    - part of the pipeline
+
+    - JavaScript
+
+    💡When first saved, a notebook can be edited, but is not “trusted” and will not actually run.
+
+
+3. Your AI team has developed several models to visually spot defects in building construction and
+    trained them all on the same data. Now they’re about to generate a confusion matrix to select
+    the best one. 
+    What steps will this involve?
+
+    - Run them all on the identical batches of new data, then compare their performance. ✅
+
+    - Run three out of four model on new data, then compare them with the fourth as a control
+        group.
+
+    - Run them all and time how long it takes each one to create an accurate prediction.
+
+    - Run them all on different data sets of data, average their outcomes, then compare the
+        results.
+    
+    💡You’ll run your models competitively, testing then all on the same new data set, then
+    compare their results using a confusion matrix.
+
+
+4. You’ve run several versions of an AI machine learning model for a client that wants to
+    anticipate repair needs for a machine on their assembly line. You’ve identified the version
+    most likely to suit their needs. Now they're asking you to save it in its current form without
+    any changes. 
+    What does that tell you they plan to do with it?
+
+    - Print it for publication in a paper-based journal.
+
+    - Continue using it with additional data. ✅
+
+    - Stop using it and delete it.
+
+    - Edit it in a Jupyter notebook using Python.
+
+    💡A saved machine learning model can continue to learn, using additional data of the types for
+    which it was initially configured. It can also be modified within Watson Studio.
+
+
+5. Why would you save your model as a Jupyter Notebook (ipynb) file? Select the two that apply.
+
+    - To secure the model against changes
+
+    - To be able to edit the code and algorithms ✅
+
+    - To be able to use it with a different data set ✅
+
+    - To encrypt the code for security purposes 
+
+    💡You would save your work as a model in order to continue training and using it with
+    different data sets. Saving the model as a Jupyter Notebook will also allow you to edit the
+    code or algorithms.

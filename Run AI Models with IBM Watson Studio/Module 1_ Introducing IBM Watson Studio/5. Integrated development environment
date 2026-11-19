@@ -1,0 +1,43 @@
+INTEGRATED DEVELOPMENT ENVIRONMENT:
+
+- IBM Watson Studio helps developers collaborate and visualize their work
+    Try working through this short case study. Imagine that you’re overseeing a team of developers
+    working on a healthcare AI system. The project is running behind schedule and over budget. You
+    need to solve three problems to bring it back on track! Don’t worry if you get this wrong the
+    first time. Just try again!
+
+    Read each of the following problems, then select the possible solution that might help solve
+    the problem.
+
+    1. None of the developers can agree on the order in which elements of the program should be
+    developed. People sometimes finish their work only to learn, weeks later, that another
+    developer has introduced something new, sending them back for a do-over. Progress keeps
+    slipping farther and farther behind schedule.
+
+        Collaborative environment
+
+        Easy visualization
+
+        Efficient workflow ✅
+    
+    2. Working on AI for hospital equipment, the developers keep having trouble coordinating with
+    each other’s work. Their data sets are formatted differently, and they use incompatible
+    programming tools, making it hard to fit the pieces together and create a working system.
+
+        Collaborative environment ✅
+
+        Easy visualization
+
+        Efficient workflow
+    
+    3. Many of the developers find it hard to read and understand AI code that involves complicated
+    functions, massive operations, and highly specialized logic.
+
+        Collaborative environment
+
+        Easy visualization ✅
+
+        Efficient workflow
+    
+    Watson Studio could solve these problems. It’s an IDE that gives developers the tools they need,
+    in a coordinated workspace where they can get things done together.

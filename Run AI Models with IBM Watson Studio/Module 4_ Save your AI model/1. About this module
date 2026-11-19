@@ -1,0 +1,14 @@
+MODULE 3: CONDUCT YOUR MACHINE LEARNING PROJECT
+------------------------------------------------------------------------------------------------------
+
+INTRODUCTION:
+
+- In this module, you’ll practice saving the most effective model as a Jupyter Notebook, allowing
+    you to use your AI model with different data sets, edit its algorithms, and more.
+
+
+LEARNING OBJECTIVES:
+
+- After completing this module, you should be able to:
+    -> Save a model as a Jupyter Notebook
+    -> Download a notebook in Jupyter Notebook (.ipynb) format

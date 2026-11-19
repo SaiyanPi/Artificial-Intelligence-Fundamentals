@@ -1,0 +1,16 @@
+MODULE 2: PREPARE YOUR MACHINE LEARNING PROJECT
+------------------------------------------------------------------------------------------------------
+
+INTRODUCTION:
+
+- Now, let’s get ready to simulate building an AI model with IBM Watson Studio. In this module, you
+    will learn about the scenario for your project. You’ll also get practice in a simulation to set
+    up a new project in IBM Watson Studio and import data.
+
+
+LEARNING OBJECTIVES:
+
+- After completing this module, you should be able to:
+    -> Set up a machine learning project in IBM Watson Studio
+    -> Create a Cloud Object Storage resource
+    -> Import a data set into IBM Watson Studio

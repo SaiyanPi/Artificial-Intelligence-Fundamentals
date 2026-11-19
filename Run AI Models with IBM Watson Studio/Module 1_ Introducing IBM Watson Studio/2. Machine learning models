@@ -1,0 +1,33 @@
+MACHINE LEARNING MODELS:
+
+- Machine learning is, in the end, about making predictions using statistics and calculus; both of
+    which are used in bits of code called machine learning algorithms. These bits of code, in turn,
+    can be organized in large-scale computer programs called machine learning models. Your
+    understanding of machine learning and how it’s executed in IBM Watson Studio starts with an
+    exploration of these two concepts.
+
+    Machine learning algorithm:
+    -> A machine learning algorithm is a set of program code. If you’ve ever worked with code, you
+        might know what a function is. A function is a set of logical operations that inputs some
+        sort of data, analyzes or transforms it, and then outputs a result. But in a machine
+        learning algorithm, that analysis often has a specific goal: to recognize patterns in data
+        sets. For example, an algorithm in an AI weather prediction system might ingest a series
+        of sunlight measurements and water temperatures, then analyze and output a pattern
+        describing how these factors appear to influence each other.
+    
+    Machine learning model:
+    -> A machine learning model is a group of machine learning algorithms. Operating together,
+        they detect patterns among their algorithms’ output and use those patterns to make
+        predictions. For example, a model whose algorithms look at patterns regarding temperature,
+        climate, geography, and so on might predict a rainy-day next Saturday.
+
+- How is this different from the way conventional computer programs operate? A machine learning
+    model doesn’t depend only on a human to write its code or to adjust its programming if its
+    predictions aren’t right. Instead, a machine learning model can reprogram itself. So if,
+    for example, a weather model tends to get a certain type of prediction wrong, it can adjust
+    its algorithms (weights and biases, statistical constructs) to improve the accuracy of its
+    predictions.
+
+- Why are you learning about this? Because creating machine learning models is the primary job of
+    IBM Watson Studio. Its integrated development environment (IDE) makes this difficult task
+    easier, faster, and more affordable. This is the future of computer programming.

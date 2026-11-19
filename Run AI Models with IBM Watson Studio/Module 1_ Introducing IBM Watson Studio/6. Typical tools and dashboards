@@ -1,0 +1,29 @@
+TYPICAL TOOLS AND DASHBOARDS:
+
+- IBM Watson Studio speeds data input and insights output
+    Watson Studio is more than a collection of resources that can communicate with each other. It
+    eases ingesting data into an AI system, organizes assets, performs complex analysis, and
+    displays results that make complicated issues simpler to understand.
+
+    1. Automated data preparation
+    IBM Watson Studio has a feature called AutoAI that prepares raw data for machine learning. It
+    can apply various algorithms to clean and structure the data, automatically select an
+    appropriate model, and optimize its output for the fastest, most useful output.
+
+    2. Visual neural network design
+    Watson Studio helps developers create machine learning flows and design neural networks visually,
+    using a simple drag-and-drop interface and open source code libraries.
+
+    3. Sophisticated analysis and prediction
+    Watson Studio recommends algorithms and uses the latest neural networks to predict and build
+    patterns. It helps programmers create visualizations simply by selecting data items, after
+    which the system itself can choose the best way to visualize its findings.
+
+    4. Unified dashboard displays
+    Watson Studio dashboards not only visualize the results of complex analyses, they also gather
+    related views on data into a single place where clients can find and understand the information
+    they seek. These dashboards don’t require specialized coding or database skills, and
+    researchers can easily share them across the internet.
+
+    IBM Watson Studio is designed to make data science a team sport that helps developers learn,
+    create, and collaborate on great machine learning models. 

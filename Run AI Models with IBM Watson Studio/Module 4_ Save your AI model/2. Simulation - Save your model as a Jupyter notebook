@@ -1,0 +1,87 @@
+SIMULATION: SAVE YOUR MODEL AS A JUPYTER NOTEBOOK
+
+- Thanks to the AutoAI in Watson Studio you now have a working risk prediction model. AutoAI used
+    the data you provided to train and test the different algorithms and determined which was the
+    best at predicting risk. All you had to do was set up the experiment and let Watson do all the
+    hard work! Now you’ll finish by showing the bank’s IT team how to save the AI model as Jupyter
+    Notebook.
+
+- Jupyter Notebooks allow you to collect all aspects of your project in one place, including code,
+    graphics, text, and the output of the model. This makes it easier to provide all the
+    information necessary to the project in one place. Jupyter Notebooks also provide others with
+    a way to view, edit, and collaborate on your AI model over the internet.
+
+    In this simulation, you’re going to use IBM Watson Studio to save the most effective model
+    and convert it to an editable Jupyter Notebook. There are 12 steps to complete.
+
+    💡Reminder
+    You do not need to access IBM Cloud or work in IBM Watson Studio to complete this course.
+    You’ll use the following simulation to practice the steps and learn in a safe, pretend
+    environment.
+
+                                    Simulation Transcript 
+                                Save AI models as Jupyter Notebooks 
+
+1. Once you have completed your experiment and determined the best model, your next step is to save 
+    the model. Select Save as. 
+        Models and notebooks 
+        You’ll recall that the experiment ended by showing a confusion matrix. It’s a mathematical 
+        test that compares predictions from all of the algorithms to see which one worked best. 
+        Basically, your job is done now. The IT folks who had gathered around begin to disperse—
+        except for a couple of people who linger so they can see how you’ll save and store the 
+        winning model. 
+        Select X to close this window and continue. ⓘ 
+
+2. You have two options. You can save the model or you can save as a notebook. To use the model 
+    again in Watson Studio you would select Model, but to interact with the model on a deeper level you 
+    need to save it as a notebook. Select Notebook. 
+
+3. The name shown in the Name field in the Define details section will change to the name of the
+    model and the pipeline that Watson selected with “Notebook” at the end. Select Create. 
+
+4. Now, select the View in project link that displays in the notification box. 
+
+5. The Pipeline notebook displays, but it is currently view only. You need to be able to edit it.
+    Select Edit icon from the menu on the top right. This makes it possible to edit the notebook.
+
+6. The notebook in an editable form displays, but it is not trusted. This means that the JavaScript
+    shown in the notebook will be disabled and not allowed to run. Since you want to be able to run
+    the code, you need to trust the notebook. Select the Not Trusted link in the upper right. 
+
+7. This displays the Trust this notebook? dialog box. Select Trust. 
+
+8. The display refreshed and the notebook now shows as trusted and all the JavaScript in the notebook 
+    is enabled. Select the Next arrow to continue. 
+
+9. Now that your notebook is trusted, it’s time to download the notebook. Select File from the top
+    menu. 
+
+10. Now, select Download as. This displays the formats that you can download the notebook in. 
+
+11. Select Notebook (.ipynb) to download the notebook in Jupyter Notebook format. 
+
+12. This will open a new tab and automatically download the notebook in Jupyter Notebook format to
+    your  computer. Next, you’ll look at what you can do with the downloaded notebook. 
+
+Conclusion: You successfully saved and downloaded your IBM Watson AutoAI model. You can now use 
+this model with new data sets, modify the code of the model, and even use the model on other
+integrated development environments (IDEs).
+
+
+- You’ve done a great job!
+    You’ve saved the most effective model so it can be used with additional data sets in IBM Watson
+    Studio and saved it again as a notebook in which you can see and edit its code and algorithms.
+
+    This was probably the easiest part of the work for you to share with your colleagues. But, they
+    still want a quick review of the steps involved. So, you take a few moments to run over it with
+    them. You share the following.
+
+    -> You saved the best model so your colleagues and try it out on new loan default data sets,
+        getting results that could be immediately useful to the bank.
+    -> You also saved it as a notebook in which it’s possible to edit the code behind the model,
+        add new algorithms, and more.
+    -> You’ve downloaded that notebook in Jupyter Notebook (.ipynb) format.
+
+    It’s been quite an adventure. You’ve helped a major bank improve their risk management, not
+    only creating a model that they can start using right away, but also showing their IT experts
+    how they can start developing more great models in IBM Watson Studio.

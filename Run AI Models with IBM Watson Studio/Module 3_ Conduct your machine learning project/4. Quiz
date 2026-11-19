@@ -1,0 +1,64 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned.
+
+1. Why did Watson test four different algorithms for this AI model?
+
+    - To remove the least effective model from the data set
+
+    - To identify those algorithms that triggered the confusion matrix
+
+    - To compare four different versions of the data set for accuracy
+
+    - To determine which set of algorithms predicted defaults most effectively ✅
+
+    💡The AutoAI in IBM Watson Studio can test up to four different algorithms in an experiment
+    to determine which algorithm and adjustments can produce the most accurate predictions on the
+    test data.
+
+
+2. What service did you associate with your experiment that helps with building a model?
+
+    - Machine Learning-Risk_Fraud ✅
+
+    - AutoAI
+
+    - German_credit-data_training.csv
+
+    - Sublimation matrix
+
+    💡In order to associate a service with this experiment, you selected Machine
+    Learning-Risk_Fraud, which you had completed in the first part of this simulation.
+
+
+3. Why did Watson AutoAI select Binary Classification as your Prediction Type?
+
+    - Because you really only needed two models to make your point
+
+    - Because predicting risk or no risk has only two options ✅
+
+    - Because you were dividing your training data into two portions
+
+    - Because you only needed to manage Accuracy and Run time
+
+    💡Your client wanted an AI model that would predict either risk or no risk. That is a binary
+    prediction, with only two options.
+
+
+4. In the simulation, you used training data and holdout data when setting up the details of the
+    experiment. Ninety percent of the data was used to train the algorithms.
+    Which of the following describes how the holdout data was used?
+
+    - Backup data
+
+    - Training data
+
+    - Reserve data
+
+    - Testing data ✅
+
+    💡The Training data split slider allows you to choose how much of the data set to use for
+    training and how much to use for testing. In the simulation, you used 90% of the data set to
+    train the algorithms using supervised learning, since Risk or No Risk was specified.
+    The remaining 10% of the data set was used as a test to determine how well the algorithms
+    performed.

@@ -1,0 +1,86 @@
+UNDERSTAND THE CONFUSION MATRIX:
+
+- The AutoAI service has generated a winning pipeline! When you selected that pipeline you were
+    able to bring up information about it, including the confusion matrix. The confusion matrix
+    allows you to measure the performance of your model. Let's take a look! Zoom in to examine
+    closely. (see confusion_matrix.png)
+
+    In the graphic you can see that the model has an accuracy rating of 0.784 on the Holdout data.
+    That means:
+    -> About 78% of the time, the model accurately predicts whether someone is a good risk for a
+        loan.
+    -> About 22% of the time, the model makes an inaccurate prediction. 
+
+    That’s valuable information!
+    But that’s just the overview. What kind of mistakes is the AI making? That’s where the
+    confusion matrix comes in. The confusion matrix is a visual representation of performance of
+    the AI model. It looks at the Observed versus Predicted results.
+
+- Terms
+    To understand the confusion matrix, you’ll need to understand some terms first.
+
+                        |     Risk                   |               No Risk
+                        |   (observed)               |             (observed)
+      ------------------|---------------------------------------------------------------
+        Risk            |                            |   
+        (predicted)     |    True positive           |             False positive
+      ------------------|----------------------------|---------------------------------
+        No Risk         |                            |
+        (predicted)     |    False Negative          |             True Negative
+
+
+    1. True Positive:
+        The model predicts positive (Risk), and the result is positive (Risk).
+    2. False Positive:
+        The model predicts positive (Risk), but the result is negative (No Risk).
+    3. False Negative:
+        The model predicts negative (No Risk), and the result is positive (Risk).
+    4. True Negative:
+        The model predicts negative (No Risk), and the result is negative (No Risk).
+
+- Results
+    Now that you understand the structure of the confusion matrix, let’s look at the confusion
+    matrix your experiment generated. (see confusion_matrix.png)
+
+                        |                          Predicted
+        Observed        |-----------------------------------------------------------------
+                        |     No Risk        |      Risk     |      perecntage correct
+      ------------------|--------------------|---------------|----------------------------
+        No Risk         |      295           |      37       |      88.9%
+      ------------------|--------------------|---------------|----------------------------
+        Risk            |       71           |      96       |      57.5%
+      ------------------|-----------------------------------------------------------------
+        Percentage      |      80.6%         |      72.2%    |      78.4%
+        correct         |                    |               |
+      ------------------------------------------------------------------------------------
+
+    IBM Watson color codes the confusion matrix to make it easier to read. Green indicates more
+    correct and blue indicates less correct. What can you conclude?
+    -> The green shading on the True Positive and True Negative cells tells you that your model is
+        very good at predicting No Risk when the person is not a risk (True Positive) and Risk when
+        the person is a risk (True Negative). 
+    -> However, the AI model isn’t quite as good when it comes to False Positives (predicting
+        someone is a Risk when they are not a risk) and False Negatives (predicting someone is No
+        Risk when they are a risk). 
+
+    The team is impressed with the speed and the accuracy of the model. Their biggest question is
+    how to make the model more accurate. You consider this and tell them that the data set you
+    used to build the model was small and with more training, the AI model should become more
+    accurate. The team starts to smile. There is plenty of data in their records, they’re anxious
+    to get the model and start working with it!
+
+
+- Great work!
+    You created an AI model with four algorithms, trained them on the bank’s data set, then ran
+    each algorithm to get the predictions about which applicants were likely to default on their
+    loans.
+    This was complicated work. So you gather your IT colleagues around you and walk them through a
+    quick review of your steps.
+    -> You used AutoAI to build your models, associating them with the machine learning service you
+        created earlier.
+    -> You created an experiment, attaching and configuring your data.
+    -> You selected a predictable column in the dataset as your X-axis
+    -> You ran the experiment.
+    -> You displayed the confusion matrix, ready to implement in the last part of your process.
+    
+    Let’s review your steps with a short quiz to remind you of what you accomplished.

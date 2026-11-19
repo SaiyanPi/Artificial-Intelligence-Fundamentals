@@ -1,0 +1,15 @@
+MODULE 3: CONDUCT YOUR MACHINE LEARNING PROJECT
+------------------------------------------------------------------------------------------------------
+
+INTRODUCTION:
+
+- In this module, you’ll practice building an AI model, training it on German bank data, and then
+    running it to generate predictions.
+
+
+LEARNING OBJECTIVES:
+
+- After completing this module, you should be able to:
+    -> Build an AI model using AutoAI in IBM Watson Studio
+    -> Run a prediction experiment for an AI model
+    -> Explain the confusion matrix

@@ -1,0 +1,73 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned.
+
+1. Which of the following did you add your data set as in IBM Watson Studio?
+
+    -> Artifact
+
+    -> Asset ✅
+
+    -> Resource
+
+    -> Project
+    
+    💡In IBM Watson Studio, your data set is considered an asset. To add a data set, you select
+    the Asset tab and then add your data file. The data set is then displayed on the Asset tab.
+
+
+2. After you provisioned the database (Cloud Object Storage) what did you select to access
+    AI/Machine Learning?
+
+    -> Code Engine
+
+    -> Cloud Foundry
+
+    -> Resource list
+
+    -> Catalog ✅
+
+    💡To provision AI/Machine Learning, you selected Catalog from the top menu.
+
+
+3. Which of the following services did you provision first for your project?
+
+    -> Two competing resource names
+
+    -> AI / Machine Learning
+
+    -> Database storage ✅
+
+    -> All assets
+
+    💡Once you’ve logged in and selected Catalog in the Dashboard, it’s a best practice to create
+    your database storage first, this allows you to set up your AI model without having to stop and
+    provision the storage for your data.
+
+
+4. When you selected the CSV file in All assets, what did you see?
+
+    -> A list of possible storage locations
+
+    -> A preview of the data to used when training your model ✅
+
+    -> A proposed name for your project
+
+    -> A set of provision options for Watson Machine Learning
+
+    💡A CSV file is a set of comma-delineated data. When you select the CSV file in the All assets
+    tab, the Preview asset tab displays showing the data you can use to train your model.
+
+
+5. After you finished setting up your IBM Watson Studio service, which of the following did you do
+    next?
+
+    -> Created a new project ✅
+
+    -> Set up the holdout and split
+
+    -> Downloaded historic data about loan defaults
+
+    -> Created a set of algorithms
+
+    💡After you set up your IBM Watson Studio service, you created a new project.

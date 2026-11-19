@@ -1,0 +1,122 @@
+SIMULATION: START YOUR PROJECT AND UPLOAD DATA:
+
+- In this simulation, you’re going to use IBM Watson Studio to perform the steps to start a new
+    project, then upload the data set of past loans and their outcomes. There are 27 steps to
+    complete.
+
+    💡Reminder
+    You do not need to access IBM Cloud or work in IBM Watson Studio to complete this course.
+    You’ll use the following simulation to practice the steps and learn in a safe, pretend
+    environment.
+
+                            Simulation Transcript 
+                        Start a project and upload data 
+
+1. After you log into IBM Cloud, you’ll find the Dashboard. This Dashboard lets you access the 
+    tools, services, resources and more in your IBM Cloud account. Select Catalog on the top 
+    toolbar. 
+            The IBM Cloud dashboard 
+            With several bank IT workers looking on, you log into IBM Cloud. As it comes up, you 
+            explain that you can access Watson Studio in just a few steps through an IBM Cloud 
+            account. This acts as your doorway to amazing AI resources. 
+
+2. This is the catalog of IBM products and services. It is a best practice to create database storage 
+    first. Type “object storage” in the Search field and select Enter 
+
+3. Select Object Storage. 
+
+4. For this simulation, you are using a free account, so you don’t need to review a pricing plan. 
+    Select the Next arrow to continue. 
+
+5. Scroll down to the Configure your resource section. Developers would say that you’re going to 
+    “provision” the object storage. A Service name is automatically generated, but you should name 
+    it something meaningful to your project. Type “Cloud Object Storage-Risk_Fraud” in the Service 
+    name field and select Enter. 
+
+6. You don’t need to fill out the other fields. In the lower right select Create.  
+
+7. Now that you’ve provisioned the Cloud Object storage, select the sandwich icon at the top left 
+    to display the navigation menu. 
+
+8. Select Resource list from the navigation menu. 
+
+9. This displays a list of the resources that you have created. Select Storage to see that the Cloud 
+    Object Storage_Risk_Fraud that you just created is listed. 
+
+10. Select Catalog on the top toolbar. 
+
+11. Notice on the left side under Category that there is a large collection of available tools. Select 
+    the AI / Machine Learning category. 
+            An AI / machine learning service 
+            Now you’re through the IBM doorway. You’ve finished basic bookkeeping and you’re 
+            ready set up a project in IBM Watson Studio. Some of the IT folks haven’t seen anything 
+            like this before, so more of them crowd around to watch you get ready. 
+
+12. Notice there are several AI and machine learning products listed. Find and select the Watson 
+    Studio block.  
+
+13. For this simulation, you are using a free account, so you don’t need to review a pricing plan. Note 
+    that the location selected is Dallas (us-south). Scroll down to reveal the Configure your 
+    resource section, then select the Next arrow to continue. 
+
+14. Under the Configure your resource section, the Service name is automatically generated, in 
+    this case Watson Studio-dl. Type “Watson Studio-AI Fundamentals” in the Service name field 
+    and select Enter. 
+
+15. You don’t need to fill out the other fields. In the lower right, assume that you’ve checked that 
+    you have read and agree to the license agreements, then select Create. 
+
+16. You’ve provisioned the IBM Watson Studio service! Notice the service name you picked displays 
+    in the upper left. Now, you need to create a new project. Select Launch in IBM Cloud Pak for 
+    Data.  
+
+17. On the Build and manage ML models pop-up, Provision Watson Machine Learning is select by 
+    default. Select Next. 
+            A new AI project 
+            With your service set up, you’ll create the AI project itself. This involves launching it, 
+            naming it, and associating it with the database that you’ll use to test your machine 
+            learning models. 
+
+18. Make sure that Dallas displays in the Select a region field. Since Dallas was selected for 
+    Watson Studio, you must make sure that you select Dallas for all the other services. Select the 
+    Next arrow to continue. 
+
+19. Under the Configure your resource section, name your service. Type “Machine Learning
+    Risk_Fraud” in the Service name field. Then select Create. 
+
+20. You are working on a new project, so select New project to create an empty project and then 
+    select Next. 
+
+21. Under the Define details section, you can name your project. Type “Risk_Fraud” in the Name 
+    field. Select the Next arrow to continue. 
+
+22. Notice under Storage that IBM Watson Studio already provisioned the Cloud Object Storage 
+    (COS) that you created earlier so you have a database. This COS can store unstructured data like 
+    images and text. Soon, you’ll work with structured data in a comma-separated values (CSV) file. 
+    Select Create.  
+
+23. You’ve created the project! This is the IBM Watson Studio Projects dashboard. You can see your 
+    project name at the top. This is the Overview tab. Select the Assets tab.  
+
+24. It’s time to upload your data set. Select Drop data files here to open your local drive and find 
+    the german_credit_data_biased_training.csv file that you’ll be working with for the project. 
+
+25. Drag and drop the german_credit_data_biased_training.csv file to Drop data files or browse 
+    for files to upload under Data in this project. 
+
+26. Notice your CSV file is right there for you. Select “german_credit_data_biased_training.csv”. 
+
+27. A Preview assets page opens so you can now preview your data. Take a moment to check out 
+    the data that displays. Select the Next arrow to continue. 
+
+Conclusion: You successfully provisioned the IBM Watson Studio service, set up a new project, and 
+uploaded the data set to your project so you’re ready to begin working with it. 
+
+
+- Good work so far!
+    You’ve completed your initial setup and are ready to create the actual experiment.
+    -> You provisioned IBM Watson Studio as a service.
+    -> You created a new project.
+    -> You uploaded the data about past loans and defaults that you’ll use for machine learning
+        training.
+    Let’s review your steps with a short quiz to remind you of what you accomplished.

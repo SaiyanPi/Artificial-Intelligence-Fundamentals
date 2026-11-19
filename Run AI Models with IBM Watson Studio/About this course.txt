@@ -1,0 +1,22 @@
+ABOUT THIS COURSE:
+
+- Do you think you can build an artificial intelligence model in IBM Watson Studio? Can you run the
+    model and observe how its AI algorithms analyze data? Can you harvest predictions from those
+    operations?
+
+- Welcome to the Run AI Models with IBM Watson Studio course! In this course, you’ll practice
+    creating an AI machine learning model in a series of simulations, using IBM Watson Studio.
+
+- Learning objectives:
+    After completing this course, you should be able to: 
+    -> Describe machine learning algorithms and models
+    -> Explain the purpose of IBM Watson Studio
+    -> Describe the key features and benefits of IBM Watson Studio
+    -> Set up a machine learning project in IBM Watson Studio
+    -> Create a Cloud Object Storage resource
+    -> Import a data set into IBM Watson Studio
+    -> Build an AI model using AutoAI in IBM Watson Studio
+    -> Run a prediction experiment for an AI model
+    -> Explain the confusion matrix
+    -> Save a model as a Jupyter Notebook
+    -> Download a notebook in Jupyter Notebook (.ipynb) format

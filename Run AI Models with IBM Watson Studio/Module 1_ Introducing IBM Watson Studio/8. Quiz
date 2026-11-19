@@ -1,0 +1,61 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned.
+
+1. Your client has requested that the AI system you’re working on should include a screen that
+    displays several different graphs at one time.
+    What type of display is the client requesting?
+
+    -> A chronography
+
+    -> An IDE
+
+    -> A dashboard ✅
+
+    -> An output collection
+
+
+2. You’re the project manager of an AI system designed to diagnose problems with fertilization in a
+    large community of farmers. You’ve hired agricultural experts; experts in the Python, Java,
+    and Lisp programming languages; and data professionals who specialize in SQL database queries.
+    Meanwhile different farmers are submitting data on different crops but not being data experts,
+    they are using different measuring systems at different times of year. Worst of all, they all
+    work in different buildings, using different computer systems that don’t easily communicate
+    with each other. Nothing is getting done. 
+    Which capability of IBM Watson Studio would most help your AI development?
+
+    -> Jupyter Notebooks
+
+    -> Efficient workflow
+
+    -> Easy visualization
+
+    -> Collaborative environment ✅
+
+
+3. Fill in the missing word: A machine learning _______________ is a block of programming code.
+
+    -> algorithm 
+
+
+4. Which of the following is a difference between conventional computer programs and machine
+    learning models?
+
+    -> A machine learning model delivers the same output every time.
+
+    -> Conventional computer programs perform calculations.
+
+    -> A machine learning model can reprogram itself. ✅
+
+    -> Conventional computer programs can alter their own code.
+
+
+5. What does IDE stand for?
+
+    -> Internal development engagement
+
+    -> Interference deflection environment
+
+    -> Inflected diagnosis entity
+
+    -> Integrated development environment ✅

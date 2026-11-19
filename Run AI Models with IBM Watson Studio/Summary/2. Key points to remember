@@ -1,0 +1,22 @@
+KEY POINTS TO REMEMBER:
+
+1. IBM Watson Studio is an integrated development environment (IDE).
+
+2. It was developed to solve problems that development teams experienced in communication and
+    project coordination.
+
+3. It has the capacity to construct, provision, run, and test machine learning models.
+
+4. It can save its results as working models or as editable notebooks.
+
+5. You had the opportunity to practice in simulations of IBM Watson Studio to:
+    -> Provision the Watson Studio service
+    -> Set up a new AI machine learning project
+    -> Import bank loan risk data
+    -> Create four machine learning models
+    -> Train these models
+    -> Run them competitively
+    -> Identify the model that most effectively predicted bank loan risk
+
+6. You considered a client’s business need, then created and tested an AI solution that could meet
+    that need.

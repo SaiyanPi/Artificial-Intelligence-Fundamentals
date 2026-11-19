@@ -1,0 +1,15 @@
+EARLY MODEL DEVELOPMENT PROBLEMS:
+
+- Watson Studio was born from a need
+    Until about 2015, artificial intelligence scientists found that building AI systems was
+    cumbersome and time-consuming. They might need to search the web, review components, hand-code
+    connections to big data tools and learn to use them, and more. This was an expensive problem
+    for laboratories and companies trying to develop and market useful systems.
+
+- Even worse, working with AI broke up workflows. Developers toggled from one technology to
+    another, jumping back and forth between workspaces, and repeatedly switching programming tools
+    to get tasks done.
+
+- These problems slowed down the adoption of AI systems, making it hard to integrate them into
+    existing technology such as medical care or automobiles. Once all the elements were working
+    together and launched, it was difficult to provide support when help was needed.
