@@ -1,0 +1,22 @@
+ADDRESS THE ISSUE:
+
+- The team now understands how an AI model can be corrupted by poisoning and evasion and why it is
+    important that the model is robust. The team is now ready to go make the system robust against
+    adversarial attacks. 
+
+- Expand for some more thoughts
+    Imagine that you are part of the team trying to make an AI more robust. Think about the
+    following questions.
+
+    ⁉️ Is the source of the data used by the AI model important to know?
+    🔊 The source of the data is very important to know. AI models depend on data to learn, so data
+    quality is crucial to trustworthy AI. In particular, it is important to know how the data was
+    collected, who has access to it, and how it has been used.
+
+    ⁉️ Is it better to use public data? Should the data be screened before it is used?
+    🔊 It is neither better nor worse to use public data. Public data can be helpful, but it needs 
+    to be carefully vetted before use.
+
+    ⁉️ How would you monitor for attacks on the deployed model?
+    🔊 Using a tool to proactively monitor for attacks on a deployed model, like IBM AI Robustness
+    360, would be a good strategy.

@@ -1,0 +1,229 @@
+FINAL ASSESSMENT:
+
+1. Imagine you’re building an AI-powered tutor for students. To personalize learning experiences,
+    the system needs access to some student data. However, you prioritize protecting student
+    privacy and don’t want to use anything that could be considered personal information (PI). 
+    Which of the following would be considered personal information (PI)?
+
+    - Favorite subject
+
+    - Home address ✅
+
+    - Learning pace
+
+    - Age range
+
+
+2. Which of the following terms describes systematic errors in AI systems that, intentionally or
+    not, generate unfair decisions?
+
+    - Prejudice
+
+    - Bias ✅
+
+    - Discrimination
+
+    - Partiality
+
+
+3. Daniel is trying to get into nursing school. His resume is excellent, but he was turned down by
+    all the schools he applied to. When he looked into the admissions process, he found that all
+    the schools used the same AI model to process the applications. When Daniel looked at the data
+    for the past 10 years, he found that in every year no less than 60% of applicants were female
+    and the rest were male. He also found that every year at least 90% of the students accepted
+    were female. 
+    According to this data, which of the following seems to be true?
+
+    - Females and males are both unprivileged groups.
+
+    - Females are an unprivileged group.
+
+    - Males are a privileged group.
+
+    - Females are a privileged group. ✅
+
+
+4. Bao is reviewing a diagnostic AI model when he notices something strange. The data set is larger
+    than it should be. After reviewing the activity over the past weeks, he notices that extra
+    items were placed in the data set that could have resulted in the AI model rendering incorrect
+    diagnoses. However, the AI model was able to process the bogus data and still render accurate
+    and correct diagnoses for each data item.
+    This is an example of which of the following?
+
+    - Transparency
+
+    - Privacy
+
+    - Fairness
+
+    - Robustness ✅
+
+    - Explainability
+
+
+5. Lester is working on an AI team that is concerned with making sure that all the people in his
+    company receive equitable treatment. 
+    In which of the following areas of AI ethics is Lester’s team working?
+
+    - Privacy
+
+    - Explainability
+
+    - Fairness ✅
+
+    - Transparency
+
+    - Robustness
+
+
+6. While preparing a data set for an AI system dealing with patient data, Nora needs to determine
+    which of the following information qualifies as sensitive personal information (SPI) and needs
+    to be removed from the data set. Which of the following would be considered SPI?
+
+    - Marital status
+
+    - Patient name ✅
+
+    - Body Mass Index (BMI)
+
+    - Annual income range
+
+    💡Correct! The patient name is the only piece of information that would allow someone to be
+    easily identified and could be used to significantly harm or inconvenience an individual.
+
+
+7. Clara has been brought in to evaluate an AI system. Based on the following graphic, she finds
+    that Model B is more interpretable than Model A. 
+    Which of the following best describes why Model B is more interpretable than Model A?
+    Graphic illustrating two models that generate product recommendations. Model A uses a simple
+    decision tree to generate the products to be recommended. Model B uses a neural network to
+    generate three recommendations, but there is no way to tell the rationale behind the
+    recommendations.
+
+    - Model B’s flow is clear and easy to understand. ✅
+
+    - Model B employs a sophisticated algorithm for recommendations.
+
+    - Model B generates recommendations without any rationale.
+
+    - Model B relies on a complex neural network structure for recommendations.
+
+
+8. Which of the following adds random noise during model training to reduce the impact of any
+    single individual on the model’s outcomes and to give a guarantee that an individual in the
+    training data set could not be identified?
+
+    - Differential privacy ✅
+
+    - Referential reduction
+
+    - Data minimization
+
+    - Model anonymization
+
+
+9. Rutherford is trying to implement a privacy control to fortify the AI system that he is working
+    on. He decides to limit the amount of personal and sensitive data that is collected and takes
+    steps to ensure that the data collected is only as granular as needed. 
+    Which of the following privacy controls is Rutherford using?
+
+    - Model anonymization
+
+    - Differential privacy
+
+    - Data minimization ✅
+
+    - Data aggregation
+
+
+10. When you asked her why there were so many romantic comedies in her Netflix recommendations,
+    your grandmother explained that Netflix looks at the movies she watches and the movies she
+    likes. She said they use that information to look for other movies to recommend. Since she
+    watches a lot of romantic comedies, she gets a lot of them recommended to her. 
+    Which pillar of AI ethics is Netflix adhering to in this example?
+
+    - Robustness
+
+    - Fairness
+
+    - Transparency
+
+    - Privacy
+
+    - Explainability ✅
+
+
+11. Uma works for a large travel booking company. She is responsible for disclosing all information
+    related to the data her company uses to build their vacation recommendation AI system. 
+    Which of the following is Uma in charge of?
+
+    - Robustness
+
+    - Fairness
+
+    - Transparency ✅
+
+    - Privacy
+
+    - Explainability 
+
+
+12. Which of the following business roles is responsible for the deployment of AI models?
+
+    - AI Designer
+
+    - Data Engineer
+
+    - AI Ops Engineer ✅
+
+    - Business Owner
+
+    💡Correct! The Deployment team includes AI Ops Engineers, AI Model Leads, and the Chief Risk
+    Officer. This team’s responsibilities include model deployment, deployment details, model
+    metrics under monitoring and related thresholds, and reviewing compliance with policy and
+    regulations.
+
+
+13. Maria is on a team creating an AI model to help recruit engineers. Maria wants to ensure that
+    the data set does not include specific attributes such as race, age, sex at birth, and
+    ethnicity. 
+    What type of attributes are these examples of?
+
+    - Protected attributes ✅
+
+    - Private attributes
+
+    - Privileged attributes
+
+    - Confidential attributes
+
+
+14. The first x-ray in the following graphic shows no disease. An adversary adds noise to the data
+    and then sends the data through the AI model, which results in an x-ray showing disease present. 
+    Which of the following areas of AI ethics is involved in defending against such an attack?
+    An x-ray and small changes being made to that x-ray before being submitted to the AI model.
+    The output of the AI model diagnoses the presence of disease.
+
+    - Transparency
+
+    - Explainability
+
+    - Robustness ✅
+
+    - Fairness
+
+    - Privacy
+
+
+15. Rose is working as an auditor on a large AI project. In an effort to provide transparency, she
+    is creating a framework to map key details of the system to the people who can provide that
+    information. 
+    Which of the following teams is responsible for the algorithms used to train the AI?
+
+    - Model team ✅
+
+    - Data team
+
+    - Deployment team
+
+    - Design team

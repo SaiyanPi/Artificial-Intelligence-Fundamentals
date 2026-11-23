@@ -1,0 +1,42 @@
+IDENTIFY THE ISSUE:
+
+- The company is in the phase of championing digital transformation using data and AI. Also,
+    they’ve made significant investments in hiring AI experts to pioneer their AI innovation
+    journey.
+
+    The company’s AI team is excited to explore ideas for automating their mortgage approval
+    process using AI. Within a month, the team developed a proof-of-concept system for automating
+    the mortgage approval process. Stacey, the Head of AI, presents the proof of concept to the
+    Business Owner, Abi. 
+
+        👩‍🦰 Stacey concludes the presentation by saying that the team was determined to create an
+        AI system that is trustworthy. To ensure this, they took the following actions: 
+        -> Evaluated the model’s fairness
+        -> Added explainability functions
+        -> Tested for robustness against adversarial attacks
+        -> Documented all data privacy measures
+    
+    Stacey then turns towards Abi expecting him to approve the AI system. 
+
+        👦 Abi starts by saying,
+        “I want to thank you and the team for the hard work in developing this proof of concept. I
+        am so excited and looking forward to the new AI journey of our company.
+
+        “However, I am curious to know more about the data source, how we transformed the data,
+        how all personally identifiable information was handled, the model performance, and other 
+        evaluation results. Can you provide more details on the entire process and on the decisions
+        made?”
+    
+    Stacey sends a message to Daniel and asks for the details requested.
+
+    Daniel sits down at his computer and starts to look at the files. While skimming through the
+    details, he notices that each team member had their own way of recording their process and
+    their findings. None of the details were logged consistently. Daniel forwards the link to the
+    documentation hesitantly because he knows the information is not easily digestible.
+
+    As Stacey and Abi start reviewing the details, they realize the need to standardize the
+    documentation process. 
+
+        👦 Abi concludes,
+        “We can fix this! Let’s connect with Patricia to discuss how we can increase transparency
+        in the process and create a standard way for documenting details to enhance governance.”

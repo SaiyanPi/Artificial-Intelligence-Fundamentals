@@ -1,0 +1,28 @@
+IDENTIFY THE ISSUE:
+
+- The launch date for an AI-based application to aid in the detection of lung cancer using chest
+    x-rays is quickly approaching. Charlie, the Chief Technology Officer, is reviewing the plan
+    with her team.
+
+    Manuel, the Chief Privacy Officer, knocks on the door and opens it softly. Charlie motions for
+    them to come in. 
+
+        👧 Manuel apologizes for the interruption and says,
+        “I just heard that AY-APP is facing a lawsuit because their app misdiagnosed disease for
+        many patients from the C.L. Eye Health Center. The article says the incorrect diagnoses
+        led to high costs for insurance companies on follow-up tests. In addition, the high stress
+        of patients because of the situation impacted their ability to work and care for their
+        families for months. It appears that an adversarial attack on their AI model was the cause
+        for the high number of incorrect diagnoses.”
+    
+    Manuel’s comment changes the direction of the meeting.
+    Immediately, Charlie thinks about the possibility of adversarial attacks. 
+
+        🧑‍🦰 Charlie says,
+        “I know the news has shaken us all a bit.” 
+
+        Charlie then asks,
+        “Is everyone familiar with what an adversarial attack is?  Let’s ensure we’re all on the
+        same page regarding the concept, terminologies, and ways the system can be attacked.”
+
+    Then, she asks Prashant, the Chief Data Officer and a Data Scientist, to explain.

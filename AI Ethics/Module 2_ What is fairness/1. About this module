@@ -1,0 +1,20 @@
+MODULE 2: WHAT IS FAIRNESS?
+------------------------------------------------------------------------------------------------------
+
+INTRODUCTION:
+
+- In AI, fairness is the equitable treatment of individuals or groups of individuals. Fairness is
+    achieved when unwanted bias is mitigated. In AI, bias is a systematic error that has been
+    designed, intentionally or not, in a way that might generate unfair decisions. Bias can be
+    present in the AI system, in the data used to train and test the system, or even in both.
+    Bias can emerge in an AI system because of cultural expectations, technical limitations, or
+    unanticipated deployment contexts.
+
+
+LEARNING OBJECTIVES:
+
+    - After completing this module, you should be able to:
+        -> Describe fairness in AI
+        -> Describe protected attributes
+        -> Identify privileged groups and unprivileged groups
+        -> Explain AI bias

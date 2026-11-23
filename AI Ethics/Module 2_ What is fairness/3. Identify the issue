@@ -1,0 +1,76 @@
+IDENTIFY THE ISSUE:
+
+- Jordan has taken a new role as the banking company’s Chief Data Officer. Before Jordan joined,
+    the company had been testing a new AI system, the first of its kind, to help their PeopleOps
+    group identify high-value candidates in their promotion pool for the current year.
+
+    The system seems to be working, so the team shares the promotion list with Priscilla, the
+    Director of People Operations. First, Priscilla looks at the list alongside the candidates’
+    demographic information. As she goes through the list, something catches her attention.
+    Priscilla notices that a disproportionate number of the promoted candidates have a college
+    degree. She is surprised because she had specifically recommended an employee without a
+    college degree who was already performing the next-level job and who sounded like the perfect
+    fit for a promotion, but that person is not on the promotion list. She calls Jordan to start
+    an investigation.
+
+    Jordan asks the data science team to look into Priscilla’s concerns. As a first step, the
+    data science team quickly analyzes the 5-year promotion data used for training the AI system. 
+
+    The following table shows a sample of the data they collected:
+
+        Employee attributes    |     Employee 1          Employee 2          Employee...
+    --------------------------------------------------------------------------------------------
+                               |
+        Employee  ID           |         1                   2                  ...
+                               |
+        Employee department    |     Data & AI           Data & AI              ...
+                               |
+        Employee education     |     Masters             No degree              ...
+                               |
+        Years of employment    |        10                  12                  ...
+                               |
+        Average rating         |       3.5/5               4.5/5                 ...
+                               |
+        Promotion decision     |        Yes                 No                  ...
+
+
+    The team compiles their initial findings in a graph that shows promotion data and candidates’
+    education levels: 
+
+                        PROMOTED CANDIDATES COUNT
+
+        600 |
+        550 |       ███████████████████████████
+        500 |       ███████████████████████████
+        450 |       ███████████████████████████
+        400 |       ███████████████████████████
+        350 |       ███████████████████████████
+        300 |       ███████████████████████████
+        250 |       ███████████████████████████
+        200 |       ███████████████████████████
+        150 |       ███████████████████████████
+        100 |       ███████████████████████████
+        85  |       ███████████████████████████       █████
+        0 +-------------------------------------------------------
+                        College degree              No college
+                            555                         85
+    
+    By looking at the graph, Jordan notices that historically there were disproportionately more
+    candidates with a college degree than candidates without a college degree in the final
+    candidate pool for promotion. It occurs to them that the system could have a fairness problem
+    resulting in bias based on education.
+
+
+- As a first step to address the dilemma, Jordan asks the team if they think there is business
+    value in keeping the AI system. 
+
+        🧑‍🦰 Jordan asks, 
+        “Do you think we should continue using AI to help with the promotion process?”
+
+    After taking a moment to think, 
+        
+        👧 Priscilla nods her head.
+        “If done well and in a way PeopleOps team members can trust, it will save us time and could
+        help us make our promotion process fairer,” says Priscilla.
+    
+    Jordan, Priscilla, and Nischal all agree that the value of AI is there, if implemented correctly.

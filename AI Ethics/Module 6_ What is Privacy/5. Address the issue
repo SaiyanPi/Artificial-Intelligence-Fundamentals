@@ -1,0 +1,27 @@
+ADDRESS THE ISSUE:
+
+- Now, the team knows the concepts of personal and sensitive information and understands that
+    information that seems harmless may be able to be used to identify individuals. Securing
+    personal data and the AI model is important for both the company and their users.
+
+- Expand for some more thoughts
+    Imagine that you are part of the team trying to deal with privacy issues. Think about the
+    following questions. 
+
+    ⁉️ How could making the model publicly available introduce a risk to privacy?
+    🔊 If an attacker has access to a model, they might be able to infer which individuals were
+        included in the training data. That’s why applying AI privacy controls is so important —
+        when training data has been anonymized or has had noise added to it, it is much more
+        difficult for attackers to determine who was included in the training data during a
+        membership inference attack.
+
+    ⁉️ If there is risk involved with using personal information, is it still worth using?
+    🔊 Yes, it is still worth using even if there is risk involved. Personal information can be
+        used to train models in the appropriate circumstances, as long as privacy techniques are
+        applied to the data to preserve the privacy of individuals whose data is included.
+    
+    ⁉️ What is another example of data minimization?
+    🔊 Using an individual’s industry instead of company or job title, using an individual’s area
+        code instead of telephone number, using yes/no questions instead of collecting specific
+        details (for example, asking “Did you graduate from high school? Yes/No” instead of asking
+        for the high school’s name or the individual’s graduation date).

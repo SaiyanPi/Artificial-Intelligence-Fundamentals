@@ -1,0 +1,48 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned.
+
+
+1. When doctors use AI to help make a medical diagnosis, it is important that the AI has which of
+    the following?
+    Select the two that apply.
+
+    - Indexability
+
+    - Interpretability ✅
+
+    - Explainability ✅
+
+    - Examinability
+
+    💡It is important that patients and medical professionals know both how and why an AI system
+    makes a prediction or a recommendation. This can help the patient understand what might be
+    wrong and can help the doctor arrive at and explain the diagnosis and the treatment plan.
+
+
+2. When developing explanations for the output of an AI model, it is important to remember that
+    explanations must _______________ depending on the user persona.
+
+    - change ✅
+
+
+3. _______________ is the degree to which an observer can understand the cause of a decision.
+
+    - Interpretability ✅
+
+
+4. Which of the following describes an AI system, that everyday people, who do not have any special
+    training in AI, can understand how and why the system came to a particular prediction or
+    recommendation?
+
+    - Interpretable
+
+    - Transparent
+
+    - Explainable ✅
+
+    - Understandable
+
+    💡An AI system is explainable when anyone can understand and follow how the system makes a
+    prediction. Being able to understand how and why AI systems make predictions and
+    recommendations is key to users trusting AI.

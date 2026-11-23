@@ -1,0 +1,75 @@
+ADDRESS THE ISSUE:
+
+- The team has identified the issue as one of fairness in the AI model. To achieve fairness,
+    unwanted bias needs to be reduced. In AI, bias is a systematic error that, intentionally or
+    not, can influence an AI system in a way that might generate unfair decisions. Bias can be
+    present both in the AI system and in the data used to train and test it. Based on the data
+    that was given to the AI system, bias had crept in and was affecting the system’s results.
+
+    SELECT THE CORRECT OPTION: The Rate of Fair Promotion Selection is 0.8 ≤ FAIR ≤ 1.25
+    Choose the promotion groups that seem fair. Keep in mind that there could be more than one
+    correct answer.
+
+    1.  promotion selection per group
+            candidates promoted with a college degree 1/10
+            candidates promoted without a college degree 2/10
+            Rate of Promotion of 2/1 = 2.
+        
+        promotion selection per group ✅
+            candidates promoted with a college degree 5/10
+            candidates promoted without a college degree 4/10
+            Rate of Promotion of 4/5 = 0.8.
+    
+    2.  promotion selection per group ✅
+            candidates promoted with a college degree 5/10
+            candidates promoted without a college degree 6/10
+            Rate of Promotion of 6/5 = 1.2.
+        
+        promotion selection per group 
+            candidates promoted with a college degree 3/10
+            candidates promoted without a college degree 2/10
+            Rate of Promotion of 2/3 = 0.67.
+    
+    3.  promotion selection per group ✅
+            candidates promoted with a college degree 7/10
+            candidates promoted without a college degree 6/10
+            Rate of Promotion of 6/7 = 0.85.
+        
+        promotion selection per group ✅
+            candidates promoted with a college degree 8/10
+            candidates promoted without a college degree 9/10
+            Rate of Promotion of 9/8 = 1.125.
+
+- Expand for some more thoughts
+    Imagine that you are part of the team trying to deal with fairness issues. Think about the
+    following questions.
+
+    ⁉️ Is there a step to analyze the intended and unintended consequences of the
+    application using a design-thinking approach? Do you think that such a step is necessary?
+    🔊 Yes, it is very important to understand known and hidden effects of the applications to
+    mitigate significant harm. One way to try to better understand known and hidden effects is by
+    considering layers of effect.  When you consider layers of effect, you think about the
+    application’s primary effect (its intended impact), its secondary effects (known or predictable
+    unintended impacts), and its tertiary effects (potential unpredictable or unforeseen unintended
+    impacts). Considering layers of effect with a diverse and inclusive team helps identify a wider
+    range of potential impacts, including potential harm.
+
+    ⁉️ Which attribute in this story’s data set has the potential to introduce unwanted bias?
+    🔊 The "Employee education" attribute
+
+    ⁉️ Is there a way to mitigate bias at every stage of the AI lifecycle (from development to
+    deployment)? How would you do it?
+    🔊 Yes, there are many ways to mitigate bias throughout the AI lifecycle. Throughout the AI
+    lifecycle, it is critical to work with a diverse and inclusive team whose collective wisdom
+    will help better identify potential bias issues. An AI models extract key patterns by looking
+    at training data in order to make decisions and predictions. So, selecting high-quality data
+    that is relevant, accurate, complete, and representative is important because using high-quality
+    data will help reduce bias issues later in the lifecycle. Once an AI model goes to production,
+    using tools to continuously detect, measure, and mitigate bias is also very important because
+    it enables you to identify, understand, and remediate issues proactively and on an ongoing
+    basis.
+
+    ⁉️ What are the ways observed bias can be dealt with?
+    🔊 There are many ways to mitigate observed bias. The first step is to investigate where and
+    why the model is exhibiting unwanted bias. Then, you can review the data and data labeling and
+    fix any observed issues. You can also check to see if model retraining is needed.

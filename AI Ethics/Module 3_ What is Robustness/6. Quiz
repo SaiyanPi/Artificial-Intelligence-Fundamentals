@@ -1,0 +1,62 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned.
+
+
+1. In a poisoning attack, when does the adversarial attack occur?
+
+    - Training phase ✅
+
+    - Post deployment phase
+
+    - Terminal phase
+
+    - Planning phase
+
+
+2. Which of the following are examples of adversarial attacks on an AI system? Select the two that
+    apply.
+
+    - Poisoning ✅
+
+    - Terminal execution
+
+    - Evasion ✅
+
+    - Denial of Service (DoS) attack
+
+
+3. Which of the following is an example of poisoning in the AI context? the three that apply.
+
+    - Injecting malicious samples into the training data ✅
+
+    - Updating features and labels of the training data ✅
+
+    - Modifying AI model architecture, parameters, and logic ✅
+
+    - Sending malicious test samples to the deployed model
+
+    - Corrupting test data sent to the deployed model
+
+
+4. Which of the following describes a robust AI system?
+
+    - The AI system can effectively handle malicious attacks without causing unintentional harm. ✅
+
+    - The AI system is very fast in processing data.
+
+    - The AI system is secured on a computer behind locked doors and windows.
+
+    - The AI system is housed on a computer with lots of RAM and hard drive space.
+
+
+5. Which of the following describes how adversarial attacks are intentionally carried out on AI
+    systems to accomplish a malicious end goal?
+
+    - Adversarial attacks attempt to exploit AI system vulnerabilities. ✅
+
+    - Adversarial attacks attempt to clean data sets that the AI is using to train.
+
+    - Adversarial attacks attempt to breach the secure facilities holding the computers the AI resides on.
+
+    - Adversarial attacks are only carried out by governments against governments.

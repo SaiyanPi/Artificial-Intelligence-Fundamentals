@@ -1,0 +1,16 @@
+MODULE 3: WHAT IS ROBUSTNESS?
+------------------------------------------------------------------------------------------------------
+
+INTRODUCTION:
+
+- AI is increasingly used to help make crucial decisions, so it is vital that AI is secure and
+    robust. When AI is robust, it can more effectively handle exceptional conditions, like
+    abnormalities in input or malicious attacks, without causing unintentional harm.
+
+
+LEARNING OBJECTIVES:
+
+    - After completing this module, you should be able to:
+        -> Describe adversarial robustness within AI
+        -> Explain how an adversary can influence an AI system
+        -> Categorize adversarial attacks

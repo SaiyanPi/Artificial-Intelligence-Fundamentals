@@ -1,0 +1,29 @@
+ADDRESS THE ISSUE:
+
+- Transparency is one of the keys to creating trustworthy AI. Going forward, the team will
+    document what data is collected, how it is used, how it is stored, and who has access to the
+    data. This transparency will allow questions about the AI system to be answered easily and
+    quickly.
+
+- Expand for some more thoughts
+    Imagine that you are part of the team trying to maximize the transparency of an AI system.
+    Think about the following questions.
+
+    ⁉️ How can you determine the roles involved in developing and deploying the AI system?
+    🔊 It is important to define roles before starting to work on the project or after the
+        business discussion stage. Remember that building a diverse and inclusive team — including
+        a diverse community of stakeholders — helps to build systems that are more trustworthy.
+    
+    ⁉️ What types of facts can each role involved in the process provide?
+    🔊 Defining all of the different roles and all of the different facts needed, and then mapping
+        the roles to facts they can provide, is a very important exercise in working toward
+        transparency. For example, facts about the purpose of the system can be provided by the
+        Business Owner, while facts about the data, such as the sources of the data or fairness
+        evaluations, could be provided by Data Scientists, Data Engineers, the AI Model Lead, or
+        even the Chief Risk Officer.
+    
+    ⁉️ Who do you think should be responsible for ensuring compliance with the whole process?
+    🔊 Ensuring compliance is a big task! Often, a chief compliance officer or other leader
+        oversees compliance and depends on a team or committee to enable and enforce compliance
+        across the business. But compliance is a team sport, and everyone can take actions to help
+        their organization maintain compliance.

@@ -1,0 +1,17 @@
+MODULE 4: WHAT IS EXPLAINABILITY?
+------------------------------------------------------------------------------------------------------
+
+INTRODUCTION:
+
+- An AI system is explainable when everyday people, who do not have any special training in AI,
+    can understand how and why the system came to a particular prediction or recommendation.
+    Explainability is like showing your work on a math problem so that everyone can see the steps
+    you took to get your answer.
+
+
+LEARNING OBJECTIVES:
+
+    - After completing this module, you should be able to:
+        -> Describe explainability
+        -> Describe interpretability
+        -> Compare interpretability and explainability

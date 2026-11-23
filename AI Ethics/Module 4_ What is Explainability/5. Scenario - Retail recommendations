@@ -1,0 +1,61 @@
+SCENARIO: RETAIL RECOMMENDATIONS
+
+
+        👩‍🦳 Olivia says to the team, 
+        “Here's a scenario that will connect the terms with our application so we can understand
+        them better.”
+
+                                        Scene 1
+
+        Imagine a customer searches for “protein powder”. They get three protein powder
+        recommendations from the AI system based on the customer’s previous purchasing patterns.
+        The information used as an input to the recommendation system is:
+        -> Sugar-free indicator (Yes/No)
+        -> Flavor (chocolate, vanilla, and no flavor)                                
+                                        
+                                        Scene 2
+
+        Here, there are two recommendation models, Model A and Model B. Each model provides three
+        product recommendations (P2, P4, and P5). 
+        Model A uses a simple decision tree to generate the products to be recommended. Model B
+        uses a neural network to generate three recommendations, but there is no way to tell what
+        led the model to generate the recommendations.
+
+                                        Scene 3
+
+        👩‍🦳 Olivia says,
+        “Clara, if I ask you to explain the reason behind the recommendations, which model flow
+        would be easiest for you to understand and explain?”
+
+                                        Scene 4
+
+        👦 “Of course, Model A(decision tree),” Clara responds.
+        “I can easily traverse through the flow and understand the reason for a decision. Model B
+        (neural network) is more like a maze. It’s hard to follow what is going on.”
+
+                                        Scene 5
+
+        👩‍🦳 “Perfect!” Olivia says.
+        “Model A is interpretable because you can easily trace and understand the reason behind the
+        recommendation. However, you need explainable methods or new techniques to trace back and
+        understand the reasoning behind Model B’s recommendations.”
+
+                                        Scene 6
+
+        👩‍🦰 “I agree with Olivia,” says Luan,
+        “but I play the role of both Model Validator and Data Scientist. I don’t think we can use
+        the same explanations for all the users of the AI model. I assume the explanations must
+        change based on the users.”
+
+                                        Scene 7
+
+        👩‍🦳 “That’s right Luan. Can you tell the team what you mean?” asks Olivia.
+
+                                        Scene 8
+
+        👩‍🦰  “Well, I’m just thinking out loud,” says Luan,
+        “but the possible personas who may need and use model explanations include the following:
+        -> Users of the website recommendations
+        -> Model Approvers (internal)
+        -> Model Auditors (external)
+        -> Data Scientists and Model Validators”

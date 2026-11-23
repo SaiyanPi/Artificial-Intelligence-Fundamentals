@@ -1,0 +1,68 @@
+EXPLAIN THE ISSUE:
+
+- Kamal meets with the team to share the feedback he received about the proof of concept. Quickly,
+    he realizes that he needs to learn more about the basic concepts of privacy so that appropriate
+    safeguards can be determined and put into place. He asks Nia from the Data Privacy team and
+    Adrian from the AI Development team to clarify some basic terms and concepts.
+
+    The issue of data privacy
+
+        👩‍🦰 Nia explains,
+        “Individuals can be protective about information or data related to them. Plus, in some
+        countries, people have a right to data privacy; although, it’s important to remember that
+        the definition of privacy and the kinds of data it applies to vary from country to country.
+        This map(https://www.cnil.fr/en/data-protection-around-the-world) shows you how privacy
+        regulations vary around the world.
+
+        “To give you a basic idea about privacy, let’s consider two kinds of data. Personal
+        information (PI)  is any information relating to an identified or identifiable individual,
+        like a name or postal code. Sensitive personal information (SPI) is information that, if
+        compromised, could be misused to significantly harm or inconvenience an individual, like a
+        bank account number or birth date. How would you categorize these types of information?”
+
+        🧑‍🦰 Kamal asks,
+        “Thanks, Nia. But how does this relate to AI?”
+
+        🧑‍🦳 Adrian from the AI Development team says,
+        “That’s a good question, Kamal. Because the machine learning models that drive AI often
+        need to be trained using personal or sensitive information, it is critical that AI systems
+        prioritize and safeguard privacy. If a model is trained using personal or sensitive
+        information without any privacy controls applied, then it could be vulnerable to breaches
+        or attacks.”
+
+        🧑‍🦰 Kamal asks,
+        “Breaches and attacks? Can you give us an example?”
+
+        🧑‍🦳 Adrian responds,
+        “Well, there are many privacy controls that can be applied to fortify AI against potential
+        breaches of personal or sensitive data. Two that occur during model training are MODEL
+        ANONYMIZATION and DIFFERENTIAL PRIVACY. One that occurs after model training is DATA
+        MINIMIZATION. Let’s take a look at each.”
+
+        1. MODEL ANONYMIZATION(during model training)
+            -> The goal of model anonymization is to anonymize the training data with minimal
+                accuracy loss. After all, if the model is trained on anonymous data, then the model
+                itself is anonymous and there is little risk to any personal data used during
+                training.
+
+        2. DIFFERENTIAL PRIVACY(during model training)
+            -> In differential privacy, random noise is added during model training to reduce the
+                impact of any single individual on the model’s outcomes and to give a guarantee
+                that an individual in the training data set could not be identified.
+        
+        3. DATA MINIMIZATION(after model training)
+            -> Data minimization means that only data that is needed is being collected. This
+                control helps prevent privacy breaches by limiting the amount of personal data that
+                is collected in the first place and by ensuring that collected data is only as
+                granular as needed.
+            -> For example, data minimization might mean that you collect only an individual’s zip
+                code instead of their full address, or only their year of birth instead of their
+                full birth date.
+        
+        🧑‍🦳 Adrian concludes,
+        “By applying privacy controls like model anonymization and differential privacy during
+        model training, and data minimization after model training, we can fortify our models
+        against personal data breaches and safeguard individuals’ privacy!”
+
+        Kamal thanks Nia and Adrian for their help and makes plans with the management team to
+        meet again to discuss the privacy controls they will implement in the AI system.

@@ -1,0 +1,18 @@
+MODULE 6: WHAT IS PRIVACY?
+------------------------------------------------------------------------------------------------------
+
+INTRODUCTION:
+
+- Data is the heart of AI. Because AI ingests so much data to learn, identify patterns, and make
+    predictions or recommendations, it must prioritize and safeguard the privacy of all of the data
+    it comes into contact with.. 
+
+
+LEARNING OBJECTIVES:
+
+    - After completing this module, you should be able to:
+        -> Identify personal information
+        -> Identify sensitive personal information
+        -> Recognize model anonymization
+        -> Describe differential privacy
+        -> Explain data minimization

@@ -1,0 +1,39 @@
+IDENTIFY THE ISSUE:
+
+- An online retail company has recently integrated an AI-based product recommendation system to
+    improve the customer buying experience. 
+
+- After releasing an AI-based product recommendation feature, the Data Science team gathers data
+    and starts the feedback analysis.
+
+    The team observed a new feedback pattern and was surprised to see the customers’ questions
+    regarding their new recommendation feature.
+    Here are some of the customer questions about the recommendations:
+        👉 "why am i getting this product recommendation? though i like the design, how can i trust
+            the recommendation?"
+        👉 "i have not seen this feature before. is this an AI-based recommendation?"
+        👉 "i noticed this cool recommendation feature but was curious to know what went inside the
+            recommendation process?"
+        👉 "is there a way i can turn off the recommendations? i don't want to be influenced by
+            them as i was unsure what went inside these recommendations."
+    
+    The Data Science team creates a report consolidating the received feedback and emails the
+    report to Olivia. 
+
+        👩‍🦳 Coincidentally, Olivia is reading an article about the importance of building trustworthy
+        AI systems so that companies can stay competitive in the market, earn customer trust, and
+        build confidence in trustworthy AI.
+        Olivia receives the team’s email and is pleasantly surprised with the timing of the
+        feedback report. She wonders, “Should the Data Science team spend time adding a new feature
+        to explain where recommendations come from?”
+
+        Olivia sends a meeting invitation to the team, calling for a brainstorming session to discuss
+        the issue
+
+        Olivia begins the meeting by thanking her Data Science team for the report. She explains
+        the importance and the need for building trustworthy AI systems. Then she writes on the
+        board at the front of the room: Trustworthy AI is not a bonus feature but an essential
+        requirement.
+
+- The team starts to understand that AI’s trustworthiness might be more important than they
+    originally thought.

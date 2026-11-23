@@ -1,0 +1,66 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned.
+
+
+1. Troy is trying to determine if Dean’s information was used in the training data set for a
+    predictive AI system. 
+    Which of the following describes the kind of attack Troy would use?
+
+    - Individual information attack
+
+    - Personal information attack
+
+    - Membership inference attack ✅
+
+    - Group identity attack
+
+    💡Troy would use a membership inference attack to see if there was any data that would allow
+    him to determine if Dean’s information was in the training data set.
+
+
+2. Which of the following would not be considered personal information (PI)?
+
+    - A person’s name
+
+    - A person’s employer
+
+    - A person’s postal code
+
+    - A person’s favorite color ✅
+
+
+3. Annie is reviewing what data to collect for the AI model to process. She decides not to collect
+    users’ mailing addresses. Which control is Annie employing?
+
+    - Data minimization ✅
+
+    - Data anonymization
+
+    - Differential privacy
+
+    - Model anonymization
+
+
+4. Ahbed wants to employ privacy controls before his model is deployed. Which of the following
+    should he use? Select the two that apply.
+
+    - Model anonymization ✅
+
+    - Data anonymization
+
+    - Data minimization
+
+    - Differential privacy ✅
+
+
+5. Shirley was arrested for protesting when she in college. Which of the following would this be an
+    example of?
+
+    - Harmful personal information
+
+    - Personal information (PI)
+
+    - Sensitive personal information (SPI) ✅
+
+    - Inferential personal information

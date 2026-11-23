@@ -1,0 +1,23 @@
+EXPLAIN THE ISSUE:
+
+
+    As Olivia turns back to the team, she hears two voices at the same time. 
+
+        👦 Clara asks, 
+        “So, should we focus on making our model interpretable?”
+
+        👩‍🦰 Luan asks,
+        “Should we focus on the explainability of the model decision?”
+    
+    Olivia believes these questions are a great way to lead the team in the right direction.
+
+        👩‍🦳 “Great questions!” exclaims Olivia. 
+        “But first, let’s understand what each term means. Both explainability and interpretability
+        are ways to understand how the model works.”
+
+        "Interpretability is the degree to which an observer can understand the cause of a decision.
+        It is the success rate that humans can predict the result of an AI output, while explainability
+        goes a step further and looks at how the AI system arrived at a result.”
+
+        “Now let’s look at a scenario that will connect those terms with our system so we can
+        understand them better.”

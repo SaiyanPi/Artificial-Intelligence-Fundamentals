@@ -1,0 +1,169 @@
+Explain the issue:
+
+    
+    👩‍🦳 Patricia, 👩‍🦰 Stacey, and 👦 Abi gather in a meeting room. Patricia sets up a whiteboard
+    session.
+    Patricia starts by writing down the high-level goals of transparency and governance.
+
+        TRANSPARENCY is disclosing information related to the data used for building
+        AI systems, design decisions made throughout the process, model creation, model
+        evaluation, and model deployment.
+
+        GOVERNANCE ensures the process followed during the creation and deployment follows
+        the internal policies and regulations.
+
+        By increasing TRANSPARENCY, we can enable GOVERNANCE.
+    
+    Patricia points out that they need to ensure the process covers the organization’s focus areas
+    in building trust in AI systems. To refresh the team’s memory, she mentions that the focus
+    areas are fairness, robustness, explainability, transparency, and privacy.
+
+        👩‍🦳 Patricia begins,
+        “Let’s try a simple exercise. Let’s create a simple framework to help us understand what
+        key details about the system are available and who can provide them.”
+    
+    Stacey and Abi are enthusiastic about the exercise and are ready to start right away. 
+
+        👩‍🦳 “Alright,” says Patricia,
+        “let’s get started. Stacey, can you provide me with a list of roles that participated in
+        creating our AI system? And Abi, can you provide me with a list of facts that the team
+        needs to collect?”
+    
+    Both Abi and Stacey start writing down the information. After a while, Patricia goes to the
+    whiteboard, and divides the board into two sections. She asks Abi and Stacey to add the
+    gathered details to get a holistic view.
+    Note: For the purposes of the story, things are done quickly, but in reality the process should
+    be more deliberative.
+
+        ROLES:
+        - Buisness Owner
+        - AI Model lead
+        - Data scientists
+        - Model validators
+        - AI Ops engineers
+        - Chief Risk Oficers
+        - Data engineers
+        - AI designers
+
+        FACTS:
+        - Data and Model Policy(based on internal principles and gov. regulations)
+        - Data: source, statistics, visulization, analysis results, transformation to features and
+                targets, selection and creation of data, fairness evaluation decisions and results,
+                and review compliance with policy and regualtions.
+        - Model: algorithms used for training, model parameters,model performance, model fairness
+                test results, model explainability functions, model robustness test results, and 
+                review compliance with policy and regulations.
+        - Deployment: Models deployed, deployment details, model metrics under monitoring and related
+                thresholds, and review compliance with policy and regulations.
+        - Design decisions
+        - Application risk level
+        - Purpose 
+    
+    The team looks at the board and feels motivated to see things finally coming together.
+
+        👩‍🦳 “This is great,” enthuses Patricia.
+        “Now, let’s map the roles to the facts. By doing this mapping, we can clarify the
+        responsibilities of the people involved in the process.”
+
+                                    PURPOSE:
+            
+         --------- FACTS -----------               -------- ROLES --------
+        |                           |             |                       |  
+        |    Purpose                |             |     Business Owner    |      
+        |                           |             |                       |
+        |    Data and Model Policy  |             |                       |
+        |    (based on internal     |             |                       |
+        |    principles and gov.    |------------>|     AI Model Lead     |
+        |    regulations)           |             |                       |
+        |                           |             |                       |
+        |                           |             |     Chief Risk        |
+        |    Application Risk       |             |     officers          |
+        |    level                  |             |                       |
+         ---------------------------               -----------------------
+
+                                    DESIGN:
+            
+         --------- FACTS -----------               -------- ROLES --------
+        |                           |             |                       |  
+        |                           |             |     Business Owner    |      
+        |                           |             |                       |
+        |                           |             |     AI Designers      |
+        |                           |             |                       |
+        |   Design Decisions        |------------>|     AI Model Lead     |
+        |                           |             |                       |
+        |                           |             |                       |
+        |                           |             |     Chief Risk        |
+        |                           |             |     officers          |
+        |                           |             |                       |
+         ---------------------------               -----------------------
+
+                                    DATA:
+            
+         --------- FACTS -----------               -------- ROLES --------
+        |                           |             |                       |  
+        |                           |             |                       |      
+        |                           |             |                       |
+        |                           |             |     Data Scientists   |
+        |                           |             |                       |
+        | Data: source, statistics, |             |                       |
+        |  visulization, analysis   |             |     Data Engineers    |
+        |  results, transformation  |             |                       |
+        |  to features and targets, |             |                       |
+        |  selection and creation of|             |                       |
+        |  data, fairness evaluation|------------>|     Chief Risk        |
+        |  decisions and results,   |             |     officers          |
+        |  and review compliance    |             |                       |
+        |  ith policy and           |             |                       |
+        |  regualtions.             |             |     AI Model Lead     |
+        |                           |             |                       |
+        |                           |             |                       |
+        |                           |             |                       |
+         ---------------------------               -----------------------
+
+                                    MODEL:
+            
+         --------- FACTS -----------               -------- ROLES --------
+        |                           |             |                       |     
+        |                           |             |                       |
+        |                           |             |     Data Scientists   |
+        |                           |             |                       |
+        | Model: algorithms used for|             |                       |
+        | training, model parameters|             |                       |
+        | ,model performance, model |             |     Model Validators  |
+        | fairness test results,    |             |                       |
+        | model explainability      |------------>|                       |
+        | functions, model          |             |     AI Model Lead     |
+        | robustness test results,  |             |                       |
+        | and review compliance with|             |                       |
+        | policy and regulations.   |             |     AI Model Lead     |
+        |                           |             |                       |
+        |                           |             |                       |
+        |                           |             |                       |
+         ---------------------------               -----------------------
+                                    
+                                    DEPLOYMENT:
+            
+         --------- FACTS -----------               -------- ROLES --------
+        |                           |             |                       |     
+        |                           |             |                       |
+        |                           |             |    AI Ops engineers   |
+        |                           |             |                       |
+        | Deployment: Models        |             |                       |
+        |  deployed, deployment     |             |                       |
+        |  details, model metrics   |------------>|    AI Model lead      |
+        |  under monitoring and     |             |                       |
+        |  related thresholds, and  |             |                       |
+        |  review compliance with   |             |                       |
+        |  policy and regulations.  |             |     Chief Risk        |
+        |                           |             |      Officers         |
+        |                           |             |                       |
+        |                           |             |                       |
+         ---------------------------               -----------------------
+
+    After mapping the facts to the roles, Patricia and the team create a template for logging the
+    facts at every pipeline stage. As a next step, they decide to try the overall flow and finalize
+    what needs to be improved.
+
+    Stacey and Abi are happy and relieved that they were able to spot the standardization need at
+    the right time! They walk out of the meeting with a clear plan for improving documentation and
+    enhancing transparency. 

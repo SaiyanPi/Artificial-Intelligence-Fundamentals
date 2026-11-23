@@ -1,0 +1,33 @@
+ABOUT THIS COURSE:
+
+- Welcome to the AI Ethics course! In this course, you’ll become familiar with concepts about AI
+    ethics. AI ethics is a multidisciplinary field that studies how to optimize AI’s beneficial
+    impact while reducing unintended or adverse outcomes. Trust in AI is built on five ethical
+    pillars:
+    -> Fairness
+    -> Robustness
+    -> Explainability
+    -> Transparency
+    -> Privacy
+
+- Learning objectives
+    After completing this course, you should be able to: 
+    -> Identify the five pillars of AI ethics
+    -> Describe fairness in AI
+    -> Describe protected attributes
+    -> Identify privileged groups and unprivileged groups
+    -> Explain AI bias
+    -> Identify robustness
+    -> Describe adversarial robustness within AI
+    -> Explain how an adversary can influence an AI system
+    -> Identify adversarial attacks
+    -> Describe explainability
+    -> Compare interpretability and explainability
+    -> Define transparency
+    -> Describe governance
+    -> Identify the business roles and the aspects of transparency they are involved in
+    -> Identify personal information
+    -> Identify sensitive personal information
+    -> Recognize model anonymization
+    -> Describe differential privacy
+    -> Explain data minimization

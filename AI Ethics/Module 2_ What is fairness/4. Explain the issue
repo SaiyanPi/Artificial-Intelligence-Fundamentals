@@ -1,0 +1,131 @@
+EXPLAIN THE ISSUE:
+
+- Jordan asks Nischal to work with the Data Science team to prepare some materials to help the
+    PeopleOps team understand what could have caused the problem.
+
+    1.
+    The next day, Nischal and the PeopleOps team assemble in the meeting room. Nischal starts the
+    discussion with the term bias.
+        🧑‍🦰 Jordan asks Nischal,
+        “Can you explain bias in the context of fairness?”  
+    
+    2.
+        👦 Nischal agrees and explains,
+        “Bias, in general, is a systematic error, but in the context of fairness, the concern is
+        around unwanted bias. Unwanted bias places some groups or individuals at a systematic
+        advantage and other groups or individuals at a systematic disadvantage.” 
+
+        He continues,
+        “I understand that I have added some new terms. So, let’s tackle them one by one.”
+    
+    3. 
+    Nischal presents a slide with the bias definition and highlights the word groups.
+                        
+                        Unwanted bias places 
+            privileged groups at a systematic advantage
+                                and
+            unprivileged groups at a systematic disadvantage.
+
+    4.
+        👧 Priscilla asks,
+        “Why would we split the population into groups?”
+    
+    5. 
+        👦 Nischal explains,
+        “The reason to use groups is simple: to mitigate disparity in the outcome across the groups.
+        In other words, to have an equitable outcome across the groups.”
+
+        Nischal continues, 
+        “We divide the population into groups based on one or more attributes in the data that
+        could introduce disparity or inequity in the outcome. The attribute that separates the
+        population into groups is called a protected attribute. Some generally used protected
+        attributes are race, age, sex at birth, gender identity, and ethnicity. But…there isn’t a
+        defined set of protected attributes.”
+
+    Note: For legal and other policy reasons, it is often the case that protected attributes are
+    not maintained in the data set. In these cases, the team might impute them (which is fraught
+    with its own biases) or might use the statistics from demographic data sets using a so-called
+    transfer learning approach(https://dl.acm.org/doi/10.1145/3306618.3314236). 
+
+    6.
+        👦 Nischal concludes, 
+        “Traditionally, if one group receives a more favorable or advantageous outcome than the
+        other group, bias can enter and cause an unfair result. The group that traditionally
+        receives more favorable outcomes is called the privileged group. The group that
+        traditionally receives fewer to no favorable outcomes is called the unprivileged group.
+        Fairness in AI aims to minimize the impact of unwanted bias on the system,”
+
+    7.
+        👦 Nischal presents the following visual representing 5 years of promotion data, split by
+        education, to explain the fairness problem.
+
+        Nischal points to the graph,
+        “In our data, education is one of the possible protected attributes.”
+
+                    PROMOTED CANDIDATES BY EDUCATION (2017–2021)
+
+            500 |     ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐
+                |     │  2017  │ │  2018  │ │  2019  │ │  2020  │ │  2021  │
+                |     ├────────┤ ├────────┤ ├────────┤ ├────────┤ ├────────┤
+                |     │░░░░░░░░│ │░░░░░░░░│ │░░░░░░░░│ │░░░░░░░░│ │░░░░░░░░│
+                |     │░░░░░░░░│ │░░░░░░░░│ │████████│ │░░░░░░░░│ │░░░░░░░░│
+            400 |     │░░░░░░░░│ │░░░░░░░░│ │190     │ │░░░░░░░░│ │░░░░░░░░│
+                |     │████████│ │░░░░░░░░│ │████████│ │░░░░░░░░│ │████████│
+            300 |     │130     │ │████████│ ├────────┤ │████████│ │95      │
+                |     ├────────┤ │80      │ │▒▒▒▒▒▒▒▒│ │60      │ ├────────┤
+            250 |     │▒▒▒▒▒▒▒▒│ ├────────┤ │▒▒▒▒▒▒▒▒│ ├────────┤ │▒▒▒▒▒▒▒▒│
+                |     │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│
+            200 |     │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│
+                |     │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│
+            100 |     │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│ │▒▒▒▒▒▒▒▒│
+                |     │████████│ │████████│ │▒▒▒▒▒▒▒▒│ │████████│ │▒▒▒▒▒▒▒▒│
+                |     | 20     | | 20     | | 20     | | 30     | | 5      |
+            0 |     └────────┘ └────────┘ └────────┘ └────────┘ └────────┘
+
+                        College degree percentages:
+                        87%         87%         95%         67%         95%
+
+                        No college degree percentages:
+                        13%         13%          5%         33%          5%
+
+
+            LEGEND:
+            ░ = Total college degree
+            █ = Selected college degree / Selected no college degree
+            ▒ = Total no college degree
+
+            SELECTED CANDIDATE COUNTS:
+            Year       College Degree       No College Degree
+            -------------------------------------------------
+            2017            130                    20
+            2018             80                    20
+            2019            190                    20
+            2020             60                    30
+            2021             95                     5
+    
+    8. 
+        👦 Nischal continues by asking the team,
+        “Can you see the pattern?”
+        “Candidates with a college degree have a higher promotion percentage than candidates
+        without a college degree. We fed this 5-year data to our AI system, which selected only
+        2% of candidates without a college degree for promotion in 2022. The AI system made its
+        selection based on the company’s past promotion record.” 
+    
+    9. 
+    Finally, the team could connect the concept with their promotion application.
+        🧑‍🦰 Jordan joins the conversation and says: 
+        “So, in our promotion application,
+        -> Employees who have a college degree are in the privileged group.
+        -> Employees who do not have a college degree are in the unprivileged group.
+        -> Education, when used to separate the population into groups, introduces disparity, and
+            is the protected attribute.”
+    
+    10.
+        👦 Nischal confirms Jordan’s understanding and concludes the initial analysis, saying,
+        “There are many ways through which bias can enter the AI system. We need to investigate
+        more on how bias entered the promotion system. The type of fairness (group, individual,
+        or both) to focus on depends on the problem. Many factors can influence the selection of
+        the protected attributes, such as the organization’s principles, the application’s focus,
+        and regulations. The team must consider all of the factors and carefully choose protected
+        attributes. The Data Science team needs to design a way to check for bias throughout the AI
+        lifecycle and take necessary mitigation action. Addressing fairness issues is a team sport!”

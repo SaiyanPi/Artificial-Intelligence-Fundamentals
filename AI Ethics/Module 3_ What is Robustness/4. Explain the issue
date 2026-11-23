@@ -1,0 +1,161 @@
+EXPLAIN THE ISSUE:
+
+        👦 Prashant says, 
+        “Let’s start with the adversarial attack explanation. Adversarial attacks are intentionally
+        carried out on AI systems to accomplish a malicious end goal by taking advantage of AI
+        system vulnerabilities."
+
+        “An adversarial attack aims to negatively impact the system performance, exploit data used,
+        and corrupt the model logic. The one who takes advantage of the AI system vulnerabilities
+        to accomplish their motive is called an adversary.”
+
+        “Here, the adversary attacks the system by adding small changes called perturbations or
+        noise to the input image. The perturbation can be minimal and imperceptible to human eyes.
+        However, when sent to the deployed AI model, the modified image results in an undesirable
+        or incorrect prediction.”
+
+        “This scenario is just for one user input. Can you imagine this scenario repeating for all
+        input x-ray images?”
+
+        🧑‍🦰Charlie enters the conversation and says,
+        “That’s scary. I can’t imagine our system getting into the hands of adversaries!"
+
+        “Can you elaborate more on the adversary’s end goals, how adversary actions can impact our
+        system, and ways the adversary can enter the system?”
+
+        👦 “Sure,” says Prashant.
+        “Let’s see some of the possible adversary goals and how they connect with our AI application.”
+    
+    -> Get access to patient’s personal information like age, gender, race, medical history,
+        identification information, and finance information.
+        🎯 ADVERSARY GOAL: Get access to personal information
+    
+    -> Add malicious x-ray samples to the input training data and make the system learn from the
+        malicious data that is in favor of the adversary. 
+        🎯 ADVERSARY GOAL: Make system learn the data that is in favor of the adversary
+    
+    -> Predict the presence of disease among significant numbers of patients who don’t have the
+        disease or vice-versa. This also reduces the system performance.
+        🎯 ADVERSARY GOAL: Force consistent misclassification of the input samples
+    
+    -> Intentionally add noise to the data so more patients will fall under the “Disease Detected”
+        category.
+        🎯 ADVERSARY GOAL: Make the system predict a specific outcome.
+    
+    -> Learn the company’s AI model and related data. Develop a similar model and use for own
+        purpose.
+        🎯 ADVERSARY GOAL: Steal or recreate the AI model
+
+    -> Send malicious and corrupted x-ray images to the company’s AI application and recreate
+        training data based on the system’s response.
+        🎯 ADVERSARY GOAL: Recreate training data used for developing the AI model
+
+        👦 Prashant notes,
+        “There are multiple ways for an adversary to achieve the goals mentioned above including the
+        following: 
+        - Getting access to the training data and learning the data distribution
+        - Having permission to modify the data used for training and testing the AI system
+        - Having access to the model code and parameters
+        - Corrupting the user’s data and sending the modified data to the deployed AI system”
+
+        “The adversary might not necessarily experiment with only one way to enter a system.
+        Instead, it is likely that the adversary might use a combination of different ways to
+        attack a system. Also, the ways adversaries attack can vary from attack to attack.”
+
+        👦 Prashant then sums up by saying,
+        “Given the goals and needs, adversarial attacks can occur either at the model training or
+        after the model deployment.”
+
+
+- The issue of POISONING
+    Prashant pauses here and thinks about potential attacks that can happen to their AI system.
+
+        👦
+        “Although there are different types of adversarial attacks, the possibility of perturbing
+        the input has a higher chance of occurrence. Therefore, based on the initial observation,
+        our AI system can be susceptible to two types of adversarial attacks: POISONING and
+        EVASION.”
+    
+    The team members look at each other with apprehension. One of them on the conference line asks,
+    “Could you tell us more about poisoning? How does poisoning work?”
+
+        👦 “Ah, good question,” says Prashant.
+        “As you can see, poisoning can happen in the following ways during the model training
+        phase:
+        -> Injecting malicious samples into the training data
+        -> Updating features and labels of the training data
+        -> Modifying AI model architecture, parameters, and logic”
+
+        “There are several impacts of the poisoning attack. One is when the deployed AI model
+        becomes sensitive to the malicious data's specific pattern.”
+
+        “I’ve set up a scenario to show you how poisoning can affect an AI system’s outputs.”
+
+                                        Scene 1
+        Adversary 1:
+        The adversary gets access to the data storage and adds malicious images with increased
+        brightness to the training data so the system can learn the pattern. 
+        Then, the adversary provides details about the percent increase in brightness to another
+        adversary, possibly someone who works at the hospital.
+        Adversary 2:
+        When using the AI model, another adversary, who works at the hospital, can easily modify
+        the input sent to the AI model based on information gathered about the increased brightness
+        range and gets the desired result.
+
+                                        Scene 2
+        Training phase: Data sent to the model for training    
+        During the training phase, Adversary 1 inserts the data containing malicious samples
+        (shaded items) leading to an AI model that is improperly trained. The malicious samples
+        are labeled Disease, but do not actually show disease. When added to the rest of the
+        training data, this results in an AI model that does not produce accurate results.                
+
+                                        Scene 2
+        After deployment: Input is sent to the deployed model for prediction  
+        Once the model is deployed, Adversary 2 adjusts the input to the deployed AI model based on
+        the malicious sample’s features. For example, Adversary 2 would manipulate the input in way
+        that would result in an input that does not show disease being labeled by the AI as Disease.
+        This could result in people without disease being identified by the AI system as people who
+        may have disease.  
+
+        👦 Prashant adds,
+        “Do you all notice how the system gets sensitive to the corrupted input? Now, let’s see the
+        evasion attack.”
+
+- The issue of EVASION
+    Evasion can happen after the model deployment phase in the following ways:
+    1. Sending malicious test samples to the deployed model
+    2. Corrupting test data sent to the deployed model
+
+        👦 Prashant says,
+        “There are several impacts of the evasion attack. One is when an adversary finds the
+        changes to the input required to make the system produce an incorrect prediction. Let me
+        demonstrate the concept with another scenario and visual.”
+        (see evasion.png)
+
+        1️⃣ 
+        1. creates malicious samples
+        2. create malicious samples
+        3. observes system response
+            The adversary sends multiple inputs to the deployed AI model by changing the brightness
+            of the x-ray images and observing the system response. 
+
+        2️⃣
+        4. updates samples based on previous results
+        5. sends updated malicious samples
+        6. observes system response
+            When sending multiple queries, the adversary ensures the system is not flooded with
+            queries and becomes unavailable. By not flooding the system, the adversary can continue
+            with the attack and identify the correct level of brightness required to bring the
+            system down.
+
+        3️⃣
+        7. Identifies the brightness range required to make the system prduce incorrect classification
+            The adversary can then use the observed brightness level to continue with further attacks.
+        
+
+        👦 Prashant concludes his presentation by saying, 
+        “Now it’s time to make our system robust against the adversarial attacks.”
+    
+    Charlie and the team members are relieved to know that their team has enough knowledge about
+    adversarial attacks and are on the right track in thinking through the solution to prevent
+    potential attacks.

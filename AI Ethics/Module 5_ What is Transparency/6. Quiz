@@ -1,0 +1,55 @@
+QUIZ
+
+Let’s check your knowledge about the concepts you just learned.
+
+
+1. Sheldon is creating an AI recommendation system. Which of the following facts about the system
+    should he share to ensure transparency? Select the two that apply.
+
+    - Who has access to the data ✅
+
+    - What data is collected ✅
+
+    - How decisions are made in the AI model
+
+    - How the AI’s neural network is structured
+
+
+2. Which of the following business roles is responsible for data? Select the three that apply.
+
+    - AI Ops Engineer
+
+    - AI Model Lead ✅
+
+    - Data Engineer ✅
+
+    - Data Scientist ✅
+
+
+3. Which of the following business roles contribute to design decisions? Select the two that apply.
+
+    - Business Owner ✅
+
+    - Model Validator
+
+    - AI Model Lead ✅
+
+    - Data Engineer
+
+
+4. _______________ is disclosing information related to the data used for building AI systems,
+    design decisions made throughout the process, model creation, model evaluation, and model
+    deployment.
+
+    - Transparency ✅
+
+
+5. Complete the sentence. In order to be trustworthy, an AI system must be _______________ .
+
+    - governable
+
+    - flexible
+
+    - traceable
+
+    - transparent ✅0

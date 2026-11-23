@@ -1,0 +1,44 @@
+MODEL EXPLANATIONS:
+
+- Now, let’s see how explanations about recommendations change for each persona Luan listed.
+                ------              ------              ------
+                |    |              |    |              |    |
+                | P2 |              | P4 |              | P5 |
+                |    |              |    |              |    |
+                ------              ------              ------
+
+                                products recommended
+    
+    -> Embracing Discovery:
+        Users might like to understand how the AI system makes specific recommendations to them. They
+        might also like to know what actions they can take to get similar or different recommendations
+        in the future.
+            P2 was recommended as you have previously purchased sugar-free products or
+            profucts with the vanilla flavor.
+            P4 and P5 were rrecommended based on your search for products with vanilla
+            flavor or products that are not sugar free.
+            
+    -> Approvers and Auditors:
+        Approvers and Auditors might like to understand the overall model decision-making steps based
+        on the features. Both Approvers and Auditors can end up checking this against random users’
+        explanations. The goal may be to evaluate the model against regulatory requirements or
+        internal policies.
+            The product will be recommended based on the sugar-free indicator and
+            flavor features.
+            Personallu identifiable information is not used for building the AI
+            recommendation system.
+            Users with the similar purchasing behavior receive the similar product
+            recommendations.
+    
+    -> Data Scientists and Model Validators:
+        Data Scientists and Model Validators might like to understand the overall model performance,
+        the effect of features on the performance, and other explanation types to evaluate the model.
+            Model features:
+            - sugar-free indicator
+            - flavor
+            How will the recommendations system be affected if the fetaure, flavor, is removed?
+    
+    Olivia and Clara thank Luan for the explanation and agree that the mapping will be helpful in
+    drafting the next steps to make the model explainable. Together, the team wraps up the
+    brainstorming session and plans the next meeting to lay out the development and implementation
+    plan.

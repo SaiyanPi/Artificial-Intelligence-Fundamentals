@@ -1,0 +1,26 @@
+ADDRESS THE ISSUE:
+
+- Thanks to Luan, Olivia and Clara are ready to get to work on increasing the explainability of
+    their AI model. The team now understands the importance of making sure that everyone, not just
+    customers, can understand how and why AI systems generate particular predictions or
+    recommendations.
+
+- Expand for some more thoughts
+    Imagine that you are part of the team trying to make an AI system more explainable. Think about
+    the following questions
+
+    ⁉️ What is a way for the team to be aware of who is involved in development and deployment of
+        the AI system and each of their roles?
+    🔊 It is important to define roles before starting to work on the project, after the business
+        discussion stage. Remember that building a diverse and inclusive team — including a diverse
+        community of stakeholders — helps to build systems that are more trustworthy.
+    
+    ⁉️ How can the team gather the type of explanations each persona will aim to get from the model?
+    🔊 First, the team should define the personas and what kinds of explanations each one needs.
+        Then, the team can think together about how to share those explanations with the different
+        personas without detracting from their user experience.
+    
+    ⁉️ Which explanation method will better match with each persona’s expectation?
+    🔊 Explanation methods are different for different consumers. Understanding the needs and goals
+        of the consumer helps in choosing the appropriate method. Design thinking can help the team
+        consider the needs and goals of the consumer.
