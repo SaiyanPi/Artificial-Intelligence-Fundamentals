@@ -1,0 +1,21 @@
+ABOUT THIS COURSE:
+
+- Artificial intelligence (AI) is a growing area of technology in this digital world. Companies
+    need professionals with the right mix of skills and talent to innovate, launch, and manage
+    AI solutions to advance business solutions.
+
+- Welcome to the Your Future in AI: The Job Landscape course! In this course, you’ll learn about
+    the AI job market and projections, the skills you need to start out with, and what it takes to
+    succeed as someone working with AI systems. You’ll also find a generous list of resources where
+    you can learn more.
+
+- Learning objectives:
+    After completing this course, you should be able to: 
+    -> Identify industries in which AI professionals work
+    -> Recognize the global demand for AI specialists in the job market
+    -> Describe a possible future for AI
+    -> Identify the primary responsibilities and skill sets for different job roles in AI
+    -> Identify the skills that AI professionals need
+    -> Identify the tools to know when starting out in the field
+    -> Identify resources to learn more and stay up to date in the field of artificial
+        intelligence
